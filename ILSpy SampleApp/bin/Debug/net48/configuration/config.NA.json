@@ -1,0 +1,46 @@
+{
+  "tracking": [
+    {
+      "symbology": "Code128",
+      "filters": [
+        {
+          "prefix": "",
+          "minimumLength": 12,
+          "maximumLength": 16
+        }
+      ]
+    },
+    {
+      "symbology": "DataMatrix",
+      "filters": [
+        {
+          "prefix": "",
+          "minimumLength": 12,
+          "maximumLength": 15
+        }
+      ]
+    },
+    {
+      "symbology": "Qr",
+      "filters": [
+        {
+          "prefix": "",
+          "minimumLength": 0,
+          "maximumLength": 0
+        }
+      ]
+    }
+  ],
+  "dataLocations": {
+    "sortZone": "^FO390,50",
+    "routeZone": "^FB400,2,0,C",
+    "trackingID": "^FO20,280",
+    "errorCode": "^FO390,150"
+  },
+  "applicationSettings": {
+    "maxPrinterCount": 7,
+    "resetButtonEnable": true,
+    "serverLoggingEnable": true,
+    "infoLoggingEnable": true
+  }
+}

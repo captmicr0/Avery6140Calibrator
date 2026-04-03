@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page x:Class="AD.API.SampleApplication.Views.ConfigView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:userControls="clr-namespace:AD.API.SampleApplication.Controls.UserControls" Title="ConfigView" ShowsNavigationUI="False" xmlns:views="clr-namespace:AD.API.SampleApplication.Views">
+  <Grid IsEnabled="{Binding Path=IsActionAvailable}">
+    <UniformGrid Columns="1" HorizontalAlignment="Stretch" Margin="25, 20, 25, 20">
+      <Button Name="BtnSystem" Height="60" FontSize="30px" IsEnabled="{Binding Path=IsSystemEnabled}" Click="BtnSystem_Click">System</Button>
+      <Button Name="BtnPrinter" Height="60" FontSize="30px" IsEnabled="{Binding Path=DeviceConnected}" Click="BtnPrinter_Click">Printer</Button>
+      <Button Name="BtnScanner" Height="60" FontSize="30px" IsEnabled="{Binding Path=DeviceConnected}" Click="BtnScanner_Click">Scanner</Button>
+      <Button Name="BtnResourceManagement" Height="60" FontSize="30px" Click="BtnResourceManagement_Click">Resource Management</Button>
+      <Button Name="BtnConfigBack" Height="60" FontSize="30px" Content="Back" Margin="0" Click="BtnBack_OnClick" />
+    </UniformGrid>
+  </Grid>
+</Page>

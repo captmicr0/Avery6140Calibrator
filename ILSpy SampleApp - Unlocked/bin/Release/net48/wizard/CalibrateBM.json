@@ -1,0 +1,23 @@
+﻿{
+  "caption": "Black Mark Calibration",
+  "steps": [
+    {
+      "text": "In order to proceed, place the printer in a continuous mode by completely removing the supplies from the printer. If your PC has Web access, follow steps 1 through 4 at https://tinyurl.com/6140Loading. \n \nClick OK to continue."
+	  },
+	  {
+	  "text":"With the top cover open, insert the roll into the supply holder until it is secure. Drape the leading edge of the roll OVER the silver bar with one to two labels extending past the silver bar. Close the top cover. \n \nClick OK to continue"
+		
+    },
+    {
+      "text": "The printer's motor should micro-feed the media past the black mark sensor. This minimal amount of movement is expected. \n \nClick OK to continue with black mark sensor calibration.",
+      "calBM": true
+    },
+    {
+      "text": "The printer will now feed one to two labels if successful. \n \nClick OK to continue",
+      "feed":  true
+    },
+	  {
+      "text": "If successful, load the printer back into Peel mode per Amazon Operating Procedures or reference steps 5 through 10 @ https://tinyurl.com/6140Loading before continuing. \n \nIf the printer dispenses an excessive amount of labels, remove the roll after the feeding stops. Make sure that there are no labels or debris covering the sensor located about 1.5 inches above the Yellow Supply Lock Tab before starting this process over. If unsuccessful more than twice, contact Avery Dennison's Technical Support per Amazon's Operating Procedures. \n \nClick OK to end black mark sensor calibration."
+	  }
+  ]
+}

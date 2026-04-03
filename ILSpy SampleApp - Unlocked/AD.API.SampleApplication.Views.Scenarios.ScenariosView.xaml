@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page x:Class="AD.API.SampleApplication.Views.Scenarios.ScenariosView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:userControls="clr-namespace:AD.API.SampleApplication.Controls.UserControls" xmlns:tools="clr-namespace:AD.API.SampleApplication.Tools" xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" xmlns:custom="clr-namespace:AD.API.SampleApplication.Views.Scenarios" Title="ScenariosView">
+  <FrameworkElement.Resources>
+    <ResourceDictionary>
+      <tools:BoolInverterToVisibilityConverter x:Key="boolInverterToVisibilityConverter" />
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <UIElement.CommandBindings>
+    <CommandBinding Command="{x:Static custom:ScenariosView.navigateToConfigurationCommand}" Executed="navigateToConfigurationCommandExecuted" />
+  </UIElement.CommandBindings>
+  <Grid Margin="20">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="40" MaxHeight="40" MinHeight="40" />
+      <RowDefinition />
+      <RowDefinition Height="98" MaxHeight="60" MinHeight="60" />
+      <RowDefinition Height="98" MaxHeight="60" MinHeight="60" />
+    </Grid.RowDefinitions>
+    <TextBox Name="ActiveDevice" FontSize="16px" Margin="0,0" IsReadOnly="True" Foreground="#FF000000" HorizontalAlignment="Center" VerticalAlignment="Center" MaxLines="1" IsTabStop="False" Text="{Binding Path=ActiveDevice, Mode=OneWay}" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" TextChanged="ActiveDevice_OnTextChanged" />
+    <Button Name="BtnBlackMarkCalibration" Style="{StaticResource SmallButton}" Grid.Row="1" Margin="0,5,0,0" Height="Auto" HorizontalAlignment="Left" VerticalAlignment="Center" IsTabStop="False" Focusable="False" Command="{Binding Path=BlackMarkCalibrationCommand}">Black Mark Calibration</Button>
+    <Button Name="BtnReset" Style="{StaticResource SmallButton}" Grid.Row="1" Margin="0,5,0,0" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Center" IsTabStop="False" Focusable="False" Command="{Binding Path=ResetCommand}">Reset</Button>
+    <TextBox Name="ScanAndPrintTextBox" Margin="0,10" Grid.Row="2" TextWrapping="Wrap" Panel.ZIndex="-4" IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding Path=ScanData, Mode=OneWay}" TextChanged="ScanAndPrintTextBox_OnTextChanged" />
+    <Button Name="BtnConnection" Style="{StaticResource LargeButton}" Grid.Row="3" Margin="0,5,0,0" Height="Auto" IsTabStop="False" Focusable="False" Click="BtnConnection_OnClick">Connection</Button>
+    <Button Name="BtnConfiguration" Style="{StaticResource LargeButton}" Grid.Row="5" Margin="0,5,0,0" Height="Auto" IsTabStop="False" Focusable="False" Click="BtnConfiguration_OnClick">Configuration</Button>
+    <Border Name="SpinnerOverlay" BorderBrush="#FF000000" BorderThickness="1" Background="#80000000" Grid.RowSpan="3" Visibility="{Binding Path=IsActionAvailable, Converter={StaticResource boolInverterToVisibilityConverter}, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}">
+      <Grid>
+        <Controls:ProgressRing Controls:ProgressRing.IsActive="True" Control.Foreground="{DynamicResource AccentColorBrush}" />
+      </Grid>
+    </Border>
+  </Grid>
+</Page>

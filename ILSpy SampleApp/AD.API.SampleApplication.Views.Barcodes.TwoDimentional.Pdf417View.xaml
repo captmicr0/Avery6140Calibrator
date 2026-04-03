@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<barcodes:BaseBarcodeView x:Class="AD.API.SampleApplication.Views.Barcodes.TwoDimentional.Pdf417View" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:barcodes="clr-namespace:AD.API.SampleApplication.Views.Barcodes" xmlns:tools="clr-namespace:AD.API.SampleApplication.Tools" Title="Pdf417View" xmlns:twodimentional="clr-namespace:AD.API.SampleApplication.Views.Barcodes.TwoDimentional">
+  <Grid Margin="20" IsEnabled="{Binding Path=IsActionAvailable}">
+    <FrameworkElement.Resources>
+      <ResourceDictionary>
+        <tools:BoolInverterConverter x:Key="boolInverterConverter" />
+      </ResourceDictionary>
+    </FrameworkElement.Resources>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <StackPanel Orientation="Vertical" Grid.Row="0">
+      <Border Style="{StaticResource DefaultBorderStyle}">
+        <Grid Name="EnabledGrid">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <Label Name="EnabledLabel" Style="{StaticResource SettingsLabel}" Grid.Column="0">
+            <ContentControl.Content>
+              <TextBlock TextWrapping="Wrap">Enabled</TextBlock>
+            </ContentControl.Content>
+          </Label>
+          <RadioButton Name="EnableButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="1" IsChecked="{Binding Path=Pdf417Enabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=true, Mode=TwoWay}">On</RadioButton>
+          <RadioButton Name="DisableButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="2" IsChecked="{Binding Path=Pdf417Enabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=false, Mode=TwoWay}">Off</RadioButton>
+        </Grid>
+      </Border>
+      <Border Style="{StaticResource DefaultBorderStyle}">
+        <Grid Name="MicroEnabledGrid">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <Label Name="MicroEnabledLabel" Style="{StaticResource SettingsLabel}" Grid.Column="0">
+            <ContentControl.Content>
+              <TextBlock TextWrapping="Wrap">Micro Enabled</TextBlock>
+            </ContentControl.Content>
+          </Label>
+          <RadioButton Name="MicroEnableRadioButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="1" IsChecked="{Binding Path=MicroEnabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=true, Mode=TwoWay}">On</RadioButton>
+          <RadioButton Name="MicroDisableRadionButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="2" IsChecked="{Binding Path=MicroEnabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=false, Mode=TwoWay}">Off</RadioButton>
+        </Grid>
+      </Border>
+      <Border Style="{StaticResource DefaultBorderStyle}">
+        <Grid Name="Code128EnabledGrid">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <Label Name="Code128EnabledLabel" Style="{StaticResource SettingsLabel}" Grid.Column="0">
+            <ContentControl.Content>
+              <TextBlock TextWrapping="Wrap">Code128 Emulation</TextBlock>
+            </ContentControl.Content>
+          </Label>
+          <RadioButton Name="Code128EnableRadioButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="1" IsChecked="{Binding Path=Code128Enabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=true, Mode=TwoWay}">On</RadioButton>
+          <RadioButton Name="Code128DisableRadionButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="2" IsChecked="{Binding Path=Code128Enabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=false, Mode=TwoWay}">Off</RadioButton>
+        </Grid>
+      </Border>
+    </StackPanel>
+    <Button Name="BackButton" VerticalAlignment="Bottom" Style="{StaticResource LargeButton}" Grid.Row="1" Click="BackButton_Click">Back</Button>
+  </Grid>
+</barcodes:BaseBarcodeView>

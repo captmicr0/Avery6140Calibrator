@@ -1,0 +1,1633 @@
+Date,Time,ActionType,TBA,SortZone,RouteCode,CapturedDuration,ErrorCode,message
+2018-11-27,14:32:02.9879,Server Info,,,,,,Stopping the TCPListener...
+2018-11-27,14:32:03.0028,Server Info,,,,,,TCPListener stopped
+2018-11-27,14:32:31.8058,Server Info,,,,,,New AveryWebServer instance created!
+2018-11-27,14:32:31.8118,Server Info,,,,,,Starting TCPListener on port 8080
+2018-11-27,14:32:31.8182,Server Info,,,,,,TCPListener started
+2018-11-27,14:32:31.8247,Server Info,,,,,,Begining to listen for incomming connections
+2018-11-27,14:32:31.8321,Server Info,,,,,,Waiting for connection[s]....
+2018-11-27,14:33:22.3880,Info,,,,,,"Scan Data Recieved from 6140. Symbology: Ean128, Data: TBA951396576000"
+2018-11-27,14:33:22.4282,Scan,TBA951396576000,,,,,
+2018-11-27,14:33:22.5110,Server Info,,,,,,Connected!
+2018-11-27,14:33:22.5283,Server Info,,,,,,Waiting for Data from COMP
+2018-11-27,14:33:22.5521,Server Info,,,,,,Line Read from COMP: POST / HTTP/1.1
+2018-11-27,14:33:22.5591,Server Info,,,,,,Line Read from COMP: User-Agent: node-XMLHttpRequest
+2018-11-27,14:33:22.5670,Server Info,,,,,,"Line Read from COMP: Accept: */*, text/plain, */*; q=0.01"
+2018-11-27,14:33:22.5755,Server Info,,,,,,Line Read from COMP: Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2018-11-27,14:33:22.5824,Server Info,,,,,,Line Read from COMP: Host: localhost:8080
+2018-11-27,14:33:22.5888,Server Info,,,,,,Line Read from COMP: Content-Length: 199
+2018-11-27,14:33:22.5943,Server Info,,,,,,Line Read from COMP: Connection: close
+2018-11-27,14:33:22.6017,Server Info,,,,,,"Request recieved: POST / HTTP/1.1
+User-Agent: node-XMLHttpRequest
+Accept: */*, text/plain, */*; q=0.01
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+Content-Length: 199
+Connection: close
+
+^XA^LH0,0 ^FO20,40 ^GB350,200,2 ^FS ^FO0,50 ^FB400,2,0,C ^A0,75 ^FD24-(29)^FS ^FO25,190 ^A0,35 ^FD^FS ^FO390,50 ^A0,80 ^FDWEST18^FS ^FO20,280 ^A0,40 ^FDTBA951396576000^FS ^FO270,280 ^A0,65 ^FD^FS ^XZ
+"
+2018-11-27,14:33:22.6102,Server Info,,,,,,"Sending Response: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: POST, OPTIONS
+Access-Control-Allow-Origin: *
+Allow: POST, OPTIONS
+Date: Tue, 27 November 2018 14:33:22 GMT
+Server: Microsoft-HTTPAPI/2.0
+Transfer-Encoding: chunked
+"
+2018-11-27,14:33:22.6196,Server Info,,,,,,"Firing Data Recieved Event: ^XA^LH0,0 ^FO20,40 ^GB350,200,2 ^FS ^FO0,50 ^FB400,2,0,C ^A0,75 ^FD24-(29)^FS ^FO25,190 ^A0,35 ^FD^FS ^FO390,50 ^A0,80 ^FDWEST18^FS ^FO20,280 ^A0,40 ^FDTBA951396576000^FS ^FO270,280 ^A0,65 ^FD^FS ^XZ
+"
+2018-11-27,14:33:22.6295,Info,,,,,,Data Recieved from COMP.
+2018-11-27,14:33:22.8016,Print,TBA951396576000,24-(29),WEST18,406.1392 ms,,
+2018-11-27,14:33:22.8091,Server Info,,,,,,Closing Connection after processing the request...
+2018-11-27,14:33:22.8185,Server Info,,,,,,Connection closed
+2018-11-27,14:33:22.8274,Server Info,,,,,,Waiting for connection[s]....
+2018-11-27,14:33:28.8195,Info,,,,,,"Scan Data Recieved from 6140. Symbology: Ean128, Data: TBA951396576000"
+2018-11-27,14:33:28.8314,Scan,TBA951396576000,,,,,
+2018-11-27,14:33:28.8641,Server Info,,,,,,Connected!
+2018-11-27,14:33:28.8760,Server Info,,,,,,Waiting for Data from COMP
+2018-11-27,14:33:28.8993,Server Info,,,,,,Line Read from COMP: POST / HTTP/1.1
+2018-11-27,14:33:28.9103,Server Info,,,,,,Line Read from COMP: User-Agent: node-XMLHttpRequest
+2018-11-27,14:33:28.9202,Server Info,,,,,,"Line Read from COMP: Accept: */*, text/plain, */*; q=0.01"
+2018-11-27,14:33:28.9291,Server Info,,,,,,Line Read from COMP: Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2018-11-27,14:33:28.9375,Server Info,,,,,,Line Read from COMP: Host: localhost:8080
+2018-11-27,14:33:28.9452,Server Info,,,,,,Line Read from COMP: Content-Length: 199
+2018-11-27,14:33:28.9549,Server Info,,,,,,Line Read from COMP: Connection: close
+2018-11-27,14:33:28.9668,Server Info,,,,,,"Request recieved: POST / HTTP/1.1
+User-Agent: node-XMLHttpRequest
+Accept: */*, text/plain, */*; q=0.01
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+Content-Length: 199
+Connection: close
+
+^XA^LH0,0 ^FO20,40 ^GB350,200,2 ^FS ^FO0,50 ^FB400,2,0,C ^A0,75 ^FD24-(29)^FS ^FO25,190 ^A0,35 ^FD^FS ^FO390,50 ^A0,80 ^FDWEST18^FS ^FO20,280 ^A0,40 ^FDTBA951396576000^FS ^FO270,280 ^A0,65 ^FD^FS ^XZ
+"
+2018-11-27,14:33:28.9738,Server Info,,,,,,"Sending Response: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: POST, OPTIONS
+Access-Control-Allow-Origin: *
+Allow: POST, OPTIONS
+Date: Tue, 27 November 2018 14:33:28 GMT
+Server: Microsoft-HTTPAPI/2.0
+Transfer-Encoding: chunked
+"
+2018-11-27,14:33:28.9832,Server Info,,,,,,"Firing Data Recieved Event: ^XA^LH0,0 ^FO20,40 ^GB350,200,2 ^FS ^FO0,50 ^FB400,2,0,C ^A0,75 ^FD24-(29)^FS ^FO25,190 ^A0,35 ^FD^FS ^FO390,50 ^A0,80 ^FDWEST18^FS ^FO20,280 ^A0,40 ^FDTBA951396576000^FS ^FO270,280 ^A0,65 ^FD^FS ^XZ
+"
+2018-11-27,14:33:28.9926,Info,,,,,,Data Recieved from COMP.
+2018-11-27,14:33:29.1374,Print,TBA951396576000,24-(29),WEST18,309.4042 ms,,
+2018-11-27,14:33:29.1478,Server Info,,,,,,Closing Connection after processing the request...
+2018-11-27,14:33:29.1584,Server Info,,,,,,Connection closed
+2018-11-27,14:33:29.1722,Server Info,,,,,,Waiting for connection[s]....
+2018-11-27,14:35:41.5751,Server Info,,,,,,Stopping the TCPListener...
+2018-11-27,14:35:41.5854,Server Info,,,,,,TCPListener stopped
+2018-11-27,18:25:25.1699,Error,,,,,704,6140 13031166: Printer Error - Printer missed black mark within specified # of inches.
+2018-11-27,18:25:25.1994,Error Handled,,,,,704,Aborted
+2018-11-27,18:25:52.1955,Error,,,,,751,6140 13031166: Printer Error - Missing black mark.
+2018-11-27,18:25:52.2246,Error Handled,,,,,751,Cleared
+2018-11-27,18:39:59.6557,Server Info,,,,,,Stopping the TCPListener...
+2018-11-27,18:39:59.6671,Server Info,,,,,,TCPListener stopped
+2018-11-27,19:47:40.5480,Server Info,,,,,,New AveryWebServer instance created!
+2018-11-27,19:47:40.5584,Server Info,,,,,,Starting TCPListener on port 8080
+2018-11-27,19:47:40.5672,Server Info,,,,,,TCPListener started
+2018-11-27,19:47:40.5759,Server Info,,,,,,Begining to listen for incomming connections
+2018-11-27,19:47:40.5847,Server Info,,,,,,Waiting for connection[s]....
+2018-11-27,19:47:41.3563,Server Info,,,,,,Stopping the TCPListener...
+2018-11-27,19:47:41.3650,Server Info,,,,,,TCPListener stopped
+2018-11-27,19:48:00.7491,Server Info,,,,,,New AveryWebServer instance created!
+2018-11-27,19:48:00.7774,Server Info,,,,,,Starting TCPListener on port 8080
+2018-11-27,19:48:00.8051,Server Info,,,,,,TCPListener started
+2018-11-27,19:48:00.8488,Server Info,,,,,,Begining to listen for incomming connections
+2018-11-27,19:48:00.8775,Server Info,,,,,,Waiting for connection[s]....
+2018-11-27,19:48:06.9645,Server Info,,,,,,Stopping the TCPListener...
+2018-11-27,19:48:06.9927,Server Info,,,,,,TCPListener stopped
+2018-11-27,20:38:25.9598,Server Info,,,,,,New AveryWebServer instance created!
+2018-11-27,20:38:25.9663,Server Info,,,,,,Starting TCPListener on port 8080
+2018-11-27,20:38:25.9717,Server Info,,,,,,TCPListener started
+2018-11-27,20:38:25.9777,Server Info,,,,,,Begining to listen for incomming connections
+2018-11-27,20:38:25.9830,Server Info,,,,,,Waiting for connection[s]....
+2018-11-27,20:38:28.2018,Server Info,,,,,,Stopping the TCPListener...
+2018-11-27,20:38:28.2083,Server Info,,,,,,TCPListener stopped
+2024-02-25,06:54:21.0497,Server Info,,,,,,Stopping the TCPListener...
+2024-02-25,06:54:21.0572,Server Info,,,,,,TCPListener stopped
+2024-02-25,06:58:47.7961,Server Info,,,,,,New AveryWebServer instance created!
+2024-02-25,06:58:47.7991,Server Info,,,,,,Starting TCPListener on port 8080
+2024-02-25,06:58:47.8001,Server Info,,,,,,TCPListener started
+2024-02-25,06:58:47.8012,Server Info,,,,,,Begining to listen for incomming connections
+2024-02-25,06:58:47.8022,Server Info,,,,,,Waiting for connection[s]....
+2024-02-25,06:59:01.5058,Error,,,,,751,6140 20030295: Printer Error - Missing black mark.
+2024-02-25,06:59:01.5108,Error Handled,,,,,751,Cleared
+2024-02-25,07:00:20.1729,Info,,,,,,"Scan Data Recieved from 6140. Symbology: DataMatrix, Data: SQvXQrgpbw_001_v"
+2024-02-25,07:00:20.1972,Scan,SQvXQrgpbw_001_v,,,,,
+2024-02-28,06:29:08.2535,Server Info,,,,,,Stopping the TCPListener...
+2024-02-28,06:29:08.2565,Server Info,,,,,,TCPListener stopped
+2024-02-28,06:29:41.3784,Server Info,,,,,,New AveryWebServer instance created!
+2024-02-28,06:29:41.3794,Server Info,,,,,,Starting TCPListener on port 8080
+2024-02-28,06:29:41.3804,Server Info,,,,,,TCPListener started
+2024-02-28,06:29:41.3814,Server Info,,,,,,Begining to listen for incomming connections
+2024-02-28,06:29:41.3814,Server Info,,,,,,Waiting for connection[s]....
+2024-02-28,06:29:51.7008,Error,,,,,751,6140 20111541: Printer Error - Missing black mark.
+2024-02-28,06:29:51.7058,Error Handled,,,,,751,Cleared
+2024-02-28,06:30:10.3638,Server Info,,,,,,Stopping the TCPListener...
+2024-02-28,06:30:10.3659,Server Info,,,,,,TCPListener stopped
+2024-02-28,06:30:40.1589,Server Info,,,,,,New AveryWebServer instance created!
+2024-02-28,06:30:40.1589,Server Info,,,,,,Starting TCPListener on port 8080
+2024-02-28,06:30:40.1599,Server Info,,,,,,TCPListener started
+2024-02-28,06:30:40.1609,Server Info,,,,,,Begining to listen for incomming connections
+2024-02-28,06:30:40.1619,Server Info,,,,,,Waiting for connection[s]....
+2024-02-28,06:31:05.6024,Server Info,,,,,,Stopping the TCPListener...
+2024-02-28,06:31:05.6051,Server Info,,,,,,TCPListener stopped
+2024-02-28,07:17:20.9446,Server Info,,,,,,Stopping the TCPListener...
+2024-02-28,07:17:20.9476,Server Info,,,,,,TCPListener stopped
+2024-02-28,07:18:17.9574,Server Info,,,,,,New AveryWebServer instance created!
+2024-02-28,07:18:17.9584,Server Info,,,,,,Starting TCPListener on port 8080
+2024-02-28,07:18:17.9604,Server Info,,,,,,TCPListener started
+2024-02-28,07:18:17.9613,Server Info,,,,,,Begining to listen for incomming connections
+2024-02-28,07:18:17.9613,Server Info,,,,,,Waiting for connection[s]....
+2024-02-28,07:18:24.5595,Error,,,,,401,6140 20111541: Printer Error - Internal software failure.  Call Technical Support.
+2024-02-28,07:18:31.7763,Error Handled,,,,,401,Cleared
+2024-02-28,07:18:32.0855,Error,,,,,751,6140 20111541: Printer Error - Missing black mark.
+2024-02-28,07:18:32.0895,Error Handled,,,,,751,Cleared
+2024-02-28,07:18:58.6368,Server Info,,,,,,Stopping the TCPListener...
+2024-02-28,07:18:58.6382,Server Info,,,,,,TCPListener stopped
+2024-02-28,08:28:42.2635,Server Info,,,,,,Stopping the TCPListener...
+2024-02-28,08:28:42.2665,Server Info,,,,,,TCPListener stopped
+2024-02-28,08:30:41.3018,Server Info,,,,,,New AveryWebServer instance created!
+2024-02-28,08:30:41.3028,Server Info,,,,,,Starting TCPListener on port 8080
+2024-02-28,08:30:41.3038,Server Info,,,,,,TCPListener started
+2024-02-28,08:30:41.3048,Server Info,,,,,,Begining to listen for incomming connections
+2024-02-28,08:30:41.3048,Server Info,,,,,,Waiting for connection[s]....
+2024-02-28,08:30:48.8851,Server Info,,,,,,Stopping the TCPListener...
+2024-02-28,08:30:48.8861,Server Info,,,,,,TCPListener stopped
+2024-02-28,08:31:28.0970,Server Info,,,,,,New AveryWebServer instance created!
+2024-02-28,08:31:28.0970,Server Info,,,,,,Starting TCPListener on port 8080
+2024-02-28,08:31:28.0982,Server Info,,,,,,TCPListener started
+2024-02-28,08:31:28.0992,Server Info,,,,,,Begining to listen for incomming connections
+2024-02-28,08:31:28.1002,Server Info,,,,,,Waiting for connection[s]....
+2024-02-28,08:32:03.9779,Server Info,,,,,,Stopping the TCPListener...
+2024-02-28,08:32:03.9797,Server Info,,,,,,TCPListener stopped
+2024-02-28,08:32:57.8663,Server Info,,,,,,New AveryWebServer instance created!
+2024-02-28,08:32:57.8673,Server Info,,,,,,Starting TCPListener on port 8080
+2024-02-28,08:32:57.8683,Server Info,,,,,,TCPListener started
+2024-02-28,08:32:57.8693,Server Info,,,,,,Begining to listen for incomming connections
+2024-02-28,08:32:57.8703,Server Info,,,,,,Waiting for connection[s]....
+2024-02-28,08:34:49.1231,Server Info,,,,,,Stopping the TCPListener...
+2024-02-28,08:34:49.1263,Server Info,,,,,,TCPListener stopped
+2024-04-24,14:08:55.1368,Server Info,,,,,,Stopping the TCPListener...
+2024-04-24,14:08:55.1413,Server Info,,,,,,TCPListener stopped
+2024-04-24,14:09:55.0875,Server Info,,,,,,New AveryWebServer instance created!
+2024-04-24,14:09:55.0883,Server Info,,,,,,Starting TCPListener on port 8080
+2024-04-24,14:09:55.0903,Server Info,,,,,,TCPListener started
+2024-04-24,14:09:55.0913,Server Info,,,,,,Begining to listen for incomming connections
+2024-04-24,14:09:55.0923,Server Info,,,,,,Waiting for connection[s]....
+2024-04-24,14:10:38.9117,Server Info,,,,,,Stopping the TCPListener...
+2024-04-24,14:10:38.9152,Server Info,,,,,,TCPListener stopped
+2024-04-24,14:10:57.6681,Server Info,,,,,,Stopping the TCPListener...
+2024-04-24,14:10:57.6731,Server Info,,,,,,TCPListener stopped
+2024-04-24,14:11:47.4777,Server Info,,,,,,New AveryWebServer instance created!
+2024-04-24,14:11:47.4787,Server Info,,,,,,Starting TCPListener on port 8080
+2024-04-24,14:11:47.4807,Server Info,,,,,,TCPListener started
+2024-04-24,14:11:47.4817,Server Info,,,,,,Begining to listen for incomming connections
+2024-04-24,14:11:47.4837,Server Info,,,,,,Waiting for connection[s]....
+2024-04-24,14:12:15.4108,Server Info,,,,,,Stopping the TCPListener...
+2024-04-24,14:12:15.4148,Server Info,,,,,,TCPListener stopped
+2024-04-24,14:44:44.1105,Server Info,,,,,,Stopping the TCPListener...
+2024-04-24,14:44:44.1135,Server Info,,,,,,TCPListener stopped
+2024-04-24,14:45:46.5122,Server Info,,,,,,New AveryWebServer instance created!
+2024-04-24,14:45:46.5131,Server Info,,,,,,Starting TCPListener on port 8080
+2024-04-24,14:45:46.5151,Server Info,,,,,,TCPListener started
+2024-04-24,14:45:46.5161,Server Info,,,,,,Begining to listen for incomming connections
+2024-04-24,14:45:46.5172,Server Info,,,,,,Waiting for connection[s]....
+2024-04-24,14:45:52.8142,Error,,,,,401,6140 21080142: Printer Error - Internal software failure.  Call Technical Support.
+2024-04-24,14:45:56.9945,Error Handled,,,,,401,Cleared
+2024-04-24,14:45:57.2574,Error,,,,,751,6140 21080142: Printer Error - Missing black mark.
+2024-04-24,14:45:57.2646,Error Handled,,,,,751,Cleared
+2024-04-30,05:40:58.5014,Server Info,,,,,,Stopping the TCPListener...
+2024-04-30,05:40:58.5049,Server Info,,,,,,TCPListener stopped
+2024-04-30,05:44:06.0523,Server Info,,,,,,New AveryWebServer instance created!
+2024-04-30,05:44:06.0543,Server Info,,,,,,Starting TCPListener on port 8080
+2024-04-30,05:44:06.0553,Server Info,,,,,,TCPListener started
+2024-04-30,05:44:06.0563,Server Info,,,,,,Begining to listen for incomming connections
+2024-04-30,05:44:06.0582,Server Info,,,,,,Waiting for connection[s]....
+2024-04-30,06:07:47.5122,Server Info,,,,,,Stopping the TCPListener...
+2024-04-30,06:07:47.5147,Server Info,,,,,,TCPListener stopped
+2024-04-30,06:09:05.7306,Server Info,,,,,,New AveryWebServer instance created!
+2024-04-30,06:09:05.7316,Server Info,,,,,,Starting TCPListener on port 8080
+2024-04-30,06:09:05.7336,Server Info,,,,,,TCPListener started
+2024-04-30,06:09:05.7346,Server Info,,,,,,Begining to listen for incomming connections
+2024-04-30,06:09:05.7356,Server Info,,,,,,Waiting for connection[s]....
+2024-04-30,06:16:18.2483,Server Info,,,,,,Stopping the TCPListener...
+2024-04-30,06:16:18.2513,Server Info,,,,,,TCPListener stopped
+2024-04-30,06:19:17.5848,Server Info,,,,,,Stopping the TCPListener...
+2024-04-30,06:19:17.5878,Server Info,,,,,,TCPListener stopped
+2024-04-30,06:19:49.3596,Server Info,,,,,,New AveryWebServer instance created!
+2024-04-30,06:19:49.3606,Server Info,,,,,,Starting TCPListener on port 8080
+2024-04-30,06:19:49.3621,Server Info,,,,,,TCPListener started
+2024-04-30,06:19:49.3631,Server Info,,,,,,Begining to listen for incomming connections
+2024-04-30,06:19:49.3646,Server Info,,,,,,Waiting for connection[s]....
+2024-04-30,06:21:26.2067,Info,,,,,,"Scan Data Recieved from 6140. Symbology: Unknown, Data: NR"
+2024-04-30,06:21:26.2077,Info,,,,,,Exiting Scan Data function with a No Read Scan.
+2024-05-08,08:16:09.6656,Server Info,,,,,,Stopping the TCPListener...
+2024-05-08,08:16:09.6706,Server Info,,,,,,TCPListener stopped
+2024-05-08,08:16:35.5598,Server Info,,,,,,Stopping the TCPListener...
+2024-05-08,08:16:35.5637,Server Info,,,,,,TCPListener stopped
+2024-05-08,08:17:49.2562,Server Info,,,,,,New AveryWebServer instance created!
+2024-05-08,08:17:49.2572,Server Info,,,,,,Starting TCPListener on port 8080
+2024-05-08,08:17:49.2582,Server Info,,,,,,TCPListener started
+2024-05-08,08:17:49.2592,Server Info,,,,,,Begining to listen for incomming connections
+2024-05-08,08:17:49.2613,Server Info,,,,,,Waiting for connection[s]....
+2024-05-08,08:17:50.4503,Info,,,,,,"Scan Data Recieved from 6140. Symbology: Unknown, Data: NR"
+2024-05-08,08:17:50.4523,Info,,,,,,Exiting Scan Data function with a No Read Scan.
+2024-05-08,08:17:50.9877,Server Info,,,,,,Stopping the TCPListener...
+2024-05-08,08:17:50.9898,Server Info,,,,,,TCPListener stopped
+2024-05-08,08:19:10.8356,Server Info,,,,,,New AveryWebServer instance created!
+2024-05-08,08:19:10.8375,Server Info,,,,,,Starting TCPListener on port 8080
+2024-05-08,08:19:10.8385,Server Info,,,,,,TCPListener started
+2024-05-08,08:19:10.8402,Server Info,,,,,,Begining to listen for incomming connections
+2024-05-08,08:19:10.8412,Server Info,,,,,,Waiting for connection[s]....
+2024-05-08,08:19:12.9543,Server Info,,,,,,Stopping the TCPListener...
+2024-05-08,08:19:12.9579,Server Info,,,,,,TCPListener stopped
+2024-05-08,08:20:02.7360,Server Info,,,,,,New AveryWebServer instance created!
+2024-05-08,08:20:02.7370,Server Info,,,,,,Starting TCPListener on port 8080
+2024-05-08,08:20:02.7380,Server Info,,,,,,TCPListener started
+2024-05-08,08:20:02.7390,Server Info,,,,,,Begining to listen for incomming connections
+2024-05-08,08:20:02.7400,Server Info,,,,,,Waiting for connection[s]....
+2024-05-08,08:20:19.6244,Server Info,,,,,,Stopping the TCPListener...
+2024-05-08,08:20:19.6264,Server Info,,,,,,TCPListener stopped
+2024-06-05,05:49:52.4482,Server Info,,,,,,Stopping the TCPListener...
+2024-06-05,05:49:52.4566,Server Info,,,,,,TCPListener stopped
+2024-06-05,05:50:46.8493,Server Info,,,,,,New AveryWebServer instance created!
+2024-06-05,05:50:46.8523,Server Info,,,,,,Starting TCPListener on port 8080
+2024-06-05,05:50:46.8543,Server Info,,,,,,TCPListener started
+2024-06-05,05:50:46.8564,Server Info,,,,,,Begining to listen for incomming connections
+2024-06-05,05:50:46.8574,Server Info,,,,,,Waiting for connection[s]....
+2024-06-24,05:30:15.6498,Server Info,,,,,,Stopping the TCPListener...
+2024-06-24,05:30:15.6538,Server Info,,,,,,TCPListener stopped
+2024-06-24,05:31:21.8510,Server Info,,,,,,New AveryWebServer instance created!
+2024-06-24,05:31:21.8531,Server Info,,,,,,Starting TCPListener on port 8080
+2024-06-24,05:31:21.8534,Server Info,,,,,,TCPListener started
+2024-06-24,05:31:21.8544,Server Info,,,,,,Begining to listen for incomming connections
+2024-06-24,05:31:21.8554,Server Info,,,,,,Waiting for connection[s]....
+2024-06-24,05:31:32.6592,Error,,,,,751,6140 21080197: Printer Error - Missing black mark.
+2024-06-24,05:31:32.6671,Error Handled,,,,,751,Cleared
+2024-06-24,05:31:34.1909,Error,,,,,704,6140 21080197: Printer Error - Printer missed black mark within specified # of inches.
+2024-06-24,05:31:34.1949,Error Handled,,,,,704,Aborted
+2024-06-24,05:32:26.4280,Server Info,,,,,,Stopping the TCPListener...
+2024-06-24,05:32:26.4299,Server Info,,,,,,TCPListener stopped
+2024-06-25,08:02:37.4256,Server Info,,,,,,Stopping the TCPListener...
+2024-06-25,08:02:37.4325,Server Info,,,,,,TCPListener stopped
+2024-06-25,08:03:03.9091,Server Info,,,,,,New AveryWebServer instance created!
+2024-06-25,08:03:03.9111,Server Info,,,,,,Starting TCPListener on port 8080
+2024-06-25,08:03:03.9131,Server Info,,,,,,TCPListener started
+2024-06-25,08:03:03.9140,Server Info,,,,,,Begining to listen for incomming connections
+2024-06-25,08:03:03.9161,Server Info,,,,,,Waiting for connection[s]....
+2024-07-03,05:57:38.6316,Server Info,,,,,,Stopping the TCPListener...
+2024-07-03,05:57:38.6366,Server Info,,,,,,TCPListener stopped
+2024-07-03,05:59:55.5922,Server Info,,,,,,New AveryWebServer instance created!
+2024-07-03,05:59:55.5932,Server Info,,,,,,Starting TCPListener on port 8080
+2024-07-03,05:59:55.5941,Server Info,,,,,,TCPListener started
+2024-07-03,05:59:55.5951,Server Info,,,,,,Begining to listen for incomming connections
+2024-07-03,05:59:55.5961,Server Info,,,,,,Waiting for connection[s]....
+2024-07-03,06:00:11.0567,Error,,,,,751,6140 19124344: Printer Error - Missing black mark.
+2024-07-03,06:00:11.0621,Error Handled,,,,,751,Cleared
+2024-07-03,06:01:30.5687,Server Info,,,,,,Stopping the TCPListener...
+2024-07-03,06:01:30.5718,Server Info,,,,,,TCPListener stopped
+2024-07-15,06:08:25.2660,Server Info,,,,,,Stopping the TCPListener...
+2024-07-15,06:08:25.2710,Server Info,,,,,,TCPListener stopped
+2024-07-15,06:10:34.1726,Server Info,,,,,,New AveryWebServer instance created!
+2024-07-15,06:10:34.1737,Server Info,,,,,,Starting TCPListener on port 8080
+2024-07-15,06:10:34.1756,Server Info,,,,,,TCPListener started
+2024-07-15,06:10:34.1766,Server Info,,,,,,Begining to listen for incomming connections
+2024-07-15,06:10:34.1786,Server Info,,,,,,Waiting for connection[s]....
+2024-07-15,06:11:06.4702,Info,,,,,,"Scan Data Recieved from 6140. Symbology: DataMatrix, Data: SQx8Jss6rM_001_v"
+2024-07-15,06:11:06.4949,Scan,SQx8Jss6rM_001_v,,,,,
+2024-07-15,06:11:12.7695,Info,,,,,,"Scan Data Recieved from 6140. Symbology: DataMatrix, Data: SQB36qLhpM_001_v"
+2024-07-15,06:11:12.7821,Scan,SQB36qLhpM_001_v,,,,,
+2024-07-17,03:47:00.1398,Server Info,,,,,,Stopping the TCPListener...
+2024-07-17,03:47:00.1459,Server Info,,,,,,TCPListener stopped
+2024-07-17,03:48:01.0870,Server Info,,,,,,New AveryWebServer instance created!
+2024-07-17,03:48:01.0880,Server Info,,,,,,Starting TCPListener on port 8080
+2024-07-17,03:48:01.0900,Server Info,,,,,,TCPListener started
+2024-07-17,03:48:01.0910,Server Info,,,,,,Begining to listen for incomming connections
+2024-07-17,03:48:01.0930,Server Info,,,,,,Waiting for connection[s]....
+2024-07-17,03:48:16.0806,Server Info,,,,,,Stopping the TCPListener...
+2024-07-17,03:48:16.0826,Server Info,,,,,,TCPListener stopped
+2024-07-17,03:49:17.8043,Server Info,,,,,,New AveryWebServer instance created!
+2024-07-17,03:49:17.8053,Server Info,,,,,,Starting TCPListener on port 8080
+2024-07-17,03:49:17.8063,Server Info,,,,,,TCPListener started
+2024-07-17,03:49:17.8083,Server Info,,,,,,Begining to listen for incomming connections
+2024-07-17,03:49:17.8093,Server Info,,,,,,Waiting for connection[s]....
+2024-07-22,11:25:01.6800,Server Info,,,,,,Stopping the TCPListener...
+2024-07-22,11:25:01.6846,Server Info,,,,,,TCPListener stopped
+2024-07-22,11:25:51.5060,Server Info,,,,,,New AveryWebServer instance created!
+2024-07-22,11:25:51.5090,Server Info,,,,,,Starting TCPListener on port 8080
+2024-07-22,11:25:51.5110,Server Info,,,,,,TCPListener started
+2024-07-22,11:25:51.5120,Server Info,,,,,,Begining to listen for incomming connections
+2024-07-22,11:25:51.5140,Server Info,,,,,,Waiting for connection[s]....
+2024-07-22,11:27:27.4381,Server Info,,,,,,Stopping the TCPListener...
+2024-07-22,11:27:27.4401,Server Info,,,,,,TCPListener stopped
+2024-07-22,11:27:48.3717,Server Info,,,,,,Stopping the TCPListener...
+2024-07-22,11:27:48.3738,Server Info,,,,,,TCPListener stopped
+2024-07-29,08:03:13.3529,Server Info,,,,,,Stopping the TCPListener...
+2024-07-29,08:03:13.3579,Server Info,,,,,,TCPListener stopped
+2024-07-29,08:04:08.8593,Server Info,,,,,,New AveryWebServer instance created!
+2024-07-29,08:04:08.8603,Server Info,,,,,,Starting TCPListener on port 8080
+2024-07-29,08:04:08.8623,Server Info,,,,,,TCPListener started
+2024-07-29,08:04:08.8633,Server Info,,,,,,Begining to listen for incomming connections
+2024-07-29,08:04:08.8643,Server Info,,,,,,Waiting for connection[s]....
+2024-07-29,08:35:47.2317,Server Info,,,,,,Stopping the TCPListener...
+2024-07-29,08:35:47.2337,Server Info,,,,,,TCPListener stopped
+2024-07-31,05:49:26.5964,Server Info,,,,,,Stopping the TCPListener...
+2024-07-31,05:49:26.6014,Server Info,,,,,,TCPListener stopped
+2024-07-31,05:50:42.1557,Server Info,,,,,,New AveryWebServer instance created!
+2024-07-31,05:50:42.1562,Server Info,,,,,,Starting TCPListener on port 8080
+2024-07-31,05:50:42.1587,Server Info,,,,,,TCPListener started
+2024-07-31,05:50:42.1597,Server Info,,,,,,Begining to listen for incomming connections
+2024-07-31,05:50:42.1607,Server Info,,,,,,Waiting for connection[s]....
+2024-08-13,09:09:17.5428,Server Info,,,,,,Stopping the TCPListener...
+2024-08-13,09:09:17.5489,Server Info,,,,,,TCPListener stopped
+2024-08-13,09:11:09.9705,Server Info,,,,,,New AveryWebServer instance created!
+2024-08-13,09:11:09.9715,Server Info,,,,,,Starting TCPListener on port 8080
+2024-08-13,09:11:09.9725,Server Info,,,,,,TCPListener started
+2024-08-13,09:11:09.9744,Server Info,,,,,,Begining to listen for incomming connections
+2024-08-13,09:11:09.9754,Server Info,,,,,,Waiting for connection[s]....
+2024-08-13,09:11:20.7567,Error,,,,,751,6140 19024702V2.9#: Printer Error - Missing black mark.
+2024-08-13,09:11:20.7641,Error Handled,,,,,751,Cleared
+2024-08-14,04:40:50.0276,Server Info,,,,,,Stopping the TCPListener...
+2024-08-14,04:40:50.0437,Server Info,,,,,,TCPListener stopped
+2024-08-14,04:41:47.9459,Server Info,,,,,,New AveryWebServer instance created!
+2024-08-14,04:41:47.9469,Server Info,,,,,,Starting TCPListener on port 8080
+2024-08-14,04:41:47.9489,Server Info,,,,,,TCPListener started
+2024-08-14,04:41:47.9499,Server Info,,,,,,Begining to listen for incomming connections
+2024-08-14,04:41:47.9509,Server Info,,,,,,Waiting for connection[s]....
+2024-08-14,06:25:39.8297,Server Info,,,,,,Stopping the TCPListener...
+2024-08-14,06:25:39.8355,Server Info,,,,,,TCPListener stopped
+2024-09-02,06:14:07.2309,Server Info,,,,,,Stopping the TCPListener...
+2024-09-02,06:14:07.2339,Server Info,,,,,,TCPListener stopped
+2024-09-02,06:15:22.2364,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-02,06:15:22.2384,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-02,06:15:22.2404,Server Info,,,,,,TCPListener started
+2024-09-02,06:15:22.2424,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-02,06:15:22.2434,Server Info,,,,,,Waiting for connection[s]....
+2024-09-02,06:15:46.7677,Server Info,,,,,,Stopping the TCPListener...
+2024-09-02,06:15:46.7697,Server Info,,,,,,TCPListener stopped
+2024-09-02,06:16:39.0186,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-02,06:16:39.0196,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-02,06:16:39.0216,Server Info,,,,,,TCPListener started
+2024-09-02,06:16:39.0226,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-02,06:16:39.0236,Server Info,,,,,,Waiting for connection[s]....
+2024-09-02,06:17:24.1694,Server Info,,,,,,Stopping the TCPListener...
+2024-09-02,06:17:24.1714,Server Info,,,,,,TCPListener stopped
+2024-09-02,06:17:32.1555,Server Info,,,,,,Stopping the TCPListener...
+2024-09-02,06:17:32.1588,Server Info,,,,,,TCPListener stopped
+2024-09-02,06:18:18.9263,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-02,06:18:18.9273,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-02,06:18:18.9293,Server Info,,,,,,TCPListener started
+2024-09-02,06:18:18.9303,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-02,06:18:18.9313,Server Info,,,,,,Waiting for connection[s]....
+2024-09-02,06:55:34.3888,Server Info,,,,,,Stopping the TCPListener...
+2024-09-02,06:55:34.3908,Server Info,,,,,,TCPListener stopped
+2024-09-11,05:12:14.1410,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,05:12:14.1450,Server Info,,,,,,TCPListener stopped
+2024-09-11,05:13:19.7467,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,05:13:19.7477,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,05:13:19.7487,Server Info,,,,,,TCPListener started
+2024-09-11,05:13:19.7507,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,05:13:19.7517,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,05:13:31.3058,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,05:13:31.3088,Server Info,,,,,,TCPListener stopped
+2024-09-11,05:13:59.5670,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,05:13:59.5709,Server Info,,,,,,TCPListener stopped
+2024-09-11,05:14:39.2830,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,05:14:39.2870,Server Info,,,,,,TCPListener stopped
+2024-09-11,05:15:57.1229,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,05:15:57.1239,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,05:15:57.1249,Server Info,,,,,,TCPListener started
+2024-09-11,05:15:57.1269,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,05:15:57.1279,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,05:16:35.9683,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,05:16:35.9701,Server Info,,,,,,TCPListener stopped
+2024-09-11,05:17:43.8153,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,05:17:43.8163,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,05:17:43.8173,Server Info,,,,,,TCPListener started
+2024-09-11,05:17:43.8193,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,05:17:43.8203,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,05:19:37.5560,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,05:19:37.5593,Server Info,,,,,,TCPListener stopped
+2024-09-11,05:22:21.0417,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,05:22:21.0426,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,05:22:21.0447,Server Info,,,,,,TCPListener started
+2024-09-11,05:22:21.0467,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,05:22:21.0479,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,05:28:25.2447,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,05:28:25.2465,Server Info,,,,,,TCPListener stopped
+2024-09-11,05:35:25.8120,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,05:35:25.8164,Server Info,,,,,,TCPListener stopped
+2024-09-11,05:44:16.9912,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,05:44:16.9932,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,05:44:16.9942,Server Info,,,,,,TCPListener started
+2024-09-11,05:44:16.9962,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,05:44:16.9982,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,05:45:28.6791,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,05:45:28.6826,Server Info,,,,,,TCPListener stopped
+2024-09-11,07:52:04.3147,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,07:52:04.3203,Server Info,,,,,,TCPListener stopped
+2024-09-11,07:54:41.6519,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,07:54:41.6539,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,07:54:41.6559,Server Info,,,,,,TCPListener started
+2024-09-11,07:54:41.6569,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,07:54:41.6579,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,07:55:06.9328,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,07:55:06.9355,Server Info,,,,,,TCPListener stopped
+2024-09-11,07:57:17.7103,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,07:57:17.7133,Server Info,,,,,,TCPListener stopped
+2024-09-11,07:58:47.0759,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,07:58:47.0779,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,07:58:47.0809,Server Info,,,,,,TCPListener started
+2024-09-11,07:58:47.0829,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,07:58:47.0849,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,07:59:04.1977,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,07:59:04.2003,Server Info,,,,,,TCPListener stopped
+2024-09-11,08:04:36.2972,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,08:04:36.2983,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,08:04:36.3013,Server Info,,,,,,TCPListener started
+2024-09-11,08:04:36.3023,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,08:04:36.3033,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,08:04:46.7866,Error,,,,,706,6140 22010924V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-09-11,08:04:46.7927,Error Handled,,,,,706,Aborted
+2024-09-11,08:04:53.7588,Error,,,,,706,6140 22010924V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-09-11,08:04:53.7637,Error Handled,,,,,706,Aborted
+2024-09-11,08:05:00.4662,Error,,,,,706,6140 22010924V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-09-11,08:05:00.4742,Error Handled,,,,,706,Aborted
+2024-09-11,08:05:02.9879,Error,,,,,706,6140 22010924V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-09-11,08:05:02.9924,Error Handled,,,,,706,Aborted
+2024-09-11,08:05:03.4697,Error,,,,,706,6140 22010924V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-09-11,08:05:03.4747,Error Handled,,,,,706,Aborted
+2024-09-11,08:05:03.9142,Error,,,,,706,6140 22010924V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-09-11,08:05:03.9182,Error Handled,,,,,706,Aborted
+2024-09-11,08:05:04.3506,Error,,,,,706,6140 22010924V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-09-11,08:05:04.3576,Error Handled,,,,,706,Aborted
+2024-09-11,08:05:04.8092,Error,,,,,706,6140 22010924V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-09-11,08:05:04.8155,Error Handled,,,,,706,Aborted
+2024-09-11,08:05:12.2136,Error,,,,,706,6140 22010924V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-09-11,08:05:12.2219,Error Handled,,,,,706,Aborted
+2024-09-11,08:06:44.0609,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:44.0659,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:45.0621,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:45.0661,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:45.9054,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:45.9101,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:46.3835,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:46.3904,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:46.9720,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:46.9763,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:47.4458,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:47.4519,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:48.6286,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:48.6346,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:49.1094,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:49.1144,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:49.9579,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:49.9635,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:50.4465,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:50.4540,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:51.1044,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:51.1116,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:51.8070,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:51.8131,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:52.2862,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:52.2913,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:53.0284,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:53.0344,Error Handled,,,,,756,Aborted
+2024-09-11,08:06:53.6306,Error,,,,,756,6140 22010924V2.9#: Printer Error - Out of stock.
+2024-09-11,08:06:53.6358,Error Handled,,,,,756,Aborted
+2024-09-11,08:08:19.6819,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,08:08:19.6839,Server Info,,,,,,TCPListener stopped
+2024-09-11,08:09:50.6173,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,08:09:50.6208,Server Info,,,,,,TCPListener stopped
+2024-09-11,08:11:56.7566,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,08:11:56.7576,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,08:11:56.7596,Server Info,,,,,,TCPListener started
+2024-09-11,08:11:56.7606,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,08:11:56.7616,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,08:13:21.0987,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,08:13:21.1019,Server Info,,,,,,TCPListener stopped
+2024-09-11,08:16:33.4111,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,08:16:33.4131,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,08:16:33.4152,Server Info,,,,,,TCPListener started
+2024-09-11,08:16:33.4172,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,08:16:33.4182,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,08:18:49.3617,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,08:18:49.3638,Server Info,,,,,,TCPListener stopped
+2024-09-11,08:21:31.4488,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,08:21:31.4535,Server Info,,,,,,TCPListener stopped
+2024-09-11,08:24:01.5272,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-11,08:24:01.5282,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-11,08:24:01.5302,Server Info,,,,,,TCPListener started
+2024-09-11,08:24:01.5315,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-11,08:24:01.5342,Server Info,,,,,,Waiting for connection[s]....
+2024-09-11,08:26:39.1748,Server Info,,,,,,Stopping the TCPListener...
+2024-09-11,08:26:39.1772,Server Info,,,,,,TCPListener stopped
+2024-09-17,07:18:35.6666,Server Info,,,,,,Stopping the TCPListener...
+2024-09-17,07:18:35.6864,Server Info,,,,,,TCPListener stopped
+2024-09-17,07:19:53.5980,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-17,07:19:53.6002,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-17,07:19:53.6022,Server Info,,,,,,TCPListener started
+2024-09-17,07:19:53.6031,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-17,07:19:53.6044,Server Info,,,,,,Waiting for connection[s]....
+2024-09-17,13:20:44.5400,Server Info,,,,,,Stopping the TCPListener...
+2024-09-17,13:20:44.5433,Server Info,,,,,,TCPListener stopped
+2024-09-21,05:55:32.9027,Server Info,,,,,,Stopping the TCPListener...
+2024-09-21,05:55:32.9077,Server Info,,,,,,TCPListener stopped
+2024-09-21,05:56:40.1606,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-21,05:56:40.1629,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-21,05:56:40.1665,Server Info,,,,,,TCPListener started
+2024-09-21,05:56:40.1695,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-21,05:56:40.1724,Server Info,,,,,,Waiting for connection[s]....
+2024-09-22,01:39:48.3687,Server Info,,,,,,Stopping the TCPListener...
+2024-09-22,01:39:48.3712,Server Info,,,,,,TCPListener stopped
+2024-09-24,06:51:46.4926,Server Info,,,,,,Stopping the TCPListener...
+2024-09-24,06:51:46.5036,Server Info,,,,,,TCPListener stopped
+2024-09-24,06:52:48.5948,Server Info,,,,,,New AveryWebServer instance created!
+2024-09-24,06:52:48.5968,Server Info,,,,,,Starting TCPListener on port 8080
+2024-09-24,06:52:48.5988,Server Info,,,,,,TCPListener started
+2024-09-24,06:52:48.6008,Server Info,,,,,,Begining to listen for incomming connections
+2024-09-24,06:52:48.6018,Server Info,,,,,,Waiting for connection[s]....
+2024-10-01,08:21:07.0484,Server Info,,,,,,Stopping the TCPListener...
+2024-10-01,08:21:07.0538,Server Info,,,,,,TCPListener stopped
+2024-10-01,08:22:17.5539,Server Info,,,,,,New AveryWebServer instance created!
+2024-10-01,08:22:17.5551,Server Info,,,,,,Starting TCPListener on port 8080
+2024-10-01,08:22:17.5571,Server Info,,,,,,TCPListener started
+2024-10-01,08:22:17.5593,Server Info,,,,,,Begining to listen for incomming connections
+2024-10-01,08:22:17.5609,Server Info,,,,,,Waiting for connection[s]....
+2024-10-01,08:22:22.7924,Error,,,,,706,6140 20030077V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-10-01,08:22:22.7993,Error Handled,,,,,706,Aborted
+2024-10-01,08:22:31.9603,Error,,,,,706,6140 20030077V2.9#: Printer Error - Motor Jam or Encoder error.
+2024-10-01,08:22:31.9652,Error Handled,,,,,706,Aborted
+2024-10-01,08:49:48.9746,Server Info,,,,,,Stopping the TCPListener...
+2024-10-01,08:49:48.9771,Server Info,,,,,,TCPListener stopped
+2024-10-01,10:58:04.7747,Server Info,,,,,,Stopping the TCPListener...
+2024-10-01,10:58:04.7781,Server Info,,,,,,TCPListener stopped
+2024-10-01,11:00:01.4458,Server Info,,,,,,New AveryWebServer instance created!
+2024-10-01,11:00:01.4473,Server Info,,,,,,Starting TCPListener on port 8080
+2024-10-01,11:00:01.4488,Server Info,,,,,,TCPListener started
+2024-10-01,11:00:01.4503,Server Info,,,,,,Begining to listen for incomming connections
+2024-10-01,11:00:01.4513,Server Info,,,,,,Waiting for connection[s]....
+2024-10-01,11:22:30.0389,Server Info,,,,,,Stopping the TCPListener...
+2024-10-01,11:22:30.0419,Server Info,,,,,,TCPListener stopped
+2024-10-06,04:29:33.4549,Server Info,,,,,,Stopping the TCPListener...
+2024-10-06,04:29:33.4608,Server Info,,,,,,TCPListener stopped
+2024-10-06,04:31:26.9095,Server Info,,,,,,New AveryWebServer instance created!
+2024-10-06,04:31:26.9115,Server Info,,,,,,Starting TCPListener on port 8080
+2024-10-06,04:31:26.9139,Server Info,,,,,,TCPListener started
+2024-10-06,04:31:26.9149,Server Info,,,,,,Begining to listen for incomming connections
+2024-10-06,04:31:26.9159,Server Info,,,,,,Waiting for connection[s]....
+2024-10-06,04:31:36.6564,Error,,,,,751,6140 19012123V2.9#: Printer Error - Missing black mark.
+2024-10-06,04:31:36.6621,Error Handled,,,,,751,Cleared
+2024-10-06,05:16:22.3015,Server Info,,,,,,Stopping the TCPListener...
+2024-10-06,05:16:22.3050,Server Info,,,,,,TCPListener stopped
+2024-12-04,09:29:12.5275,Server Info,,,,,,Stopping the TCPListener...
+2024-12-04,09:29:12.5320,Server Info,,,,,,TCPListener stopped
+2024-12-04,09:31:15.3248,Server Info,,,,,,Stopping the TCPListener...
+2024-12-04,09:31:15.3283,Server Info,,,,,,TCPListener stopped
+2024-12-04,09:32:14.4215,Server Info,,,,,,New AveryWebServer instance created!
+2024-12-04,09:32:14.4231,Server Info,,,,,,Starting TCPListener on port 8080
+2024-12-04,09:32:14.4256,Server Info,,,,,,TCPListener started
+2024-12-04,09:32:14.4273,Server Info,,,,,,Begining to listen for incomming connections
+2024-12-04,09:32:14.4288,Server Info,,,,,,Waiting for connection[s]....
+2024-12-04,09:32:33.8600,Error,,,,,751,6140 19122038V2.9#: Printer Error - Missing black mark.
+2024-12-04,09:32:33.8666,Error Handled,,,,,751,Cleared
+2025-10-10,14:16:24.0107,Server Info,,,,,,Stopping the TCPListener...
+2025-10-10,14:16:24.0147,Server Info,,,,,,TCPListener stopped
+2025-10-10,14:17:11.4334,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-10,14:17:11.4374,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-10,14:17:11.4395,Server Info,,,,,,TCPListener started
+2025-10-10,14:17:11.4415,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-10,14:17:11.4425,Server Info,,,,,,Waiting for connection[s]....
+2025-10-10,14:17:45.3590,Server Info,,,,,,Stopping the TCPListener...
+2025-10-10,14:17:45.3620,Server Info,,,,,,TCPListener stopped
+2025-10-10,14:18:22.0933,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-10,14:18:22.0952,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-10,14:18:22.0982,Server Info,,,,,,TCPListener started
+2025-10-10,14:18:22.1003,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-10,14:18:22.1012,Server Info,,,,,,Waiting for connection[s]....
+2025-10-10,14:25:15.9783,Server Info,,,,,,Stopping the TCPListener...
+2025-10-10,14:25:15.9992,Server Info,,,,,,TCPListener stopped
+2025-10-12,03:00:23.2016,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-12,03:00:23.2058,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-12,03:00:23.2108,Server Info,,,,,,TCPListener started
+2025-10-12,03:00:23.2128,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-12,03:00:23.2148,Server Info,,,,,,Waiting for connection[s]....
+2025-10-12,03:01:38.0852,Server Info,,,,,,Stopping the TCPListener...
+2025-10-12,03:01:38.0872,Server Info,,,,,,TCPListener stopped
+2025-10-12,03:02:08.1119,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-12,03:02:08.1136,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-12,03:02:08.1156,Server Info,,,,,,TCPListener started
+2025-10-12,03:02:08.1175,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-12,03:02:08.1205,Server Info,,,,,,Waiting for connection[s]....
+2025-10-12,03:02:37.1955,Server Info,,,,,,Stopping the TCPListener...
+2025-10-12,03:02:37.1974,Server Info,,,,,,TCPListener stopped
+2025-10-12,03:03:27.3137,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-12,03:03:27.3143,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-12,03:03:27.3164,Server Info,,,,,,TCPListener started
+2025-10-12,03:03:27.3184,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-12,03:03:27.3193,Server Info,,,,,,Waiting for connection[s]....
+2025-10-12,03:06:41.4463,Server Info,,,,,,Stopping the TCPListener...
+2025-10-12,03:06:41.4493,Server Info,,,,,,TCPListener stopped
+2025-10-13,13:54:59.6280,Server Info,,,,,,Stopping the TCPListener...
+2025-10-13,13:54:59.6340,Server Info,,,,,,TCPListener stopped
+2025-10-13,13:55:59.8040,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-13,13:55:59.8060,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-13,13:55:59.8080,Server Info,,,,,,TCPListener started
+2025-10-13,13:55:59.8100,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-13,13:55:59.8120,Server Info,,,,,,Waiting for connection[s]....
+2025-10-13,13:58:48.0022,Info,,,,,,"Scan Data Recieved from 6140. Symbology: Unknown, Data: NR"
+2025-10-13,13:58:48.0052,Info,,,,,,Exiting Scan Data function with a No Read Scan.
+2025-10-14,05:02:49.1625,Server Info,,,,,,Stopping the TCPListener...
+2025-10-14,05:02:49.1671,Server Info,,,,,,TCPListener stopped
+2025-10-24,05:19:32.1343,Server Info,,,,,,Stopping the TCPListener...
+2025-10-24,05:19:32.1413,Server Info,,,,,,TCPListener stopped
+2025-10-24,05:20:21.5308,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-24,05:20:21.5318,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-24,05:20:21.5339,Server Info,,,,,,TCPListener started
+2025-10-24,05:20:21.5358,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-24,05:20:21.5378,Server Info,,,,,,Waiting for connection[s]....
+2025-10-24,05:22:12.3713,Server Info,,,,,,Stopping the TCPListener...
+2025-10-24,05:22:12.3753,Server Info,,,,,,TCPListener stopped
+2025-10-24,05:22:42.3636,Server Info,,,,,,Stopping the TCPListener...
+2025-10-24,05:22:42.3676,Server Info,,,,,,TCPListener stopped
+2025-10-24,05:23:34.5002,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-24,05:23:34.5011,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-24,05:23:34.5032,Server Info,,,,,,TCPListener started
+2025-10-24,05:23:34.5052,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-24,05:23:34.5061,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,04:20:50.1717,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,04:20:50.1857,Server Info,,,,,,TCPListener stopped
+2025-10-25,04:21:15.2350,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,04:21:15.2370,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,04:21:15.2391,Server Info,,,,,,TCPListener started
+2025-10-25,04:21:15.2410,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,04:21:15.2431,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,04:24:26.9041,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,04:24:26.9090,Server Info,,,,,,TCPListener stopped
+2025-10-25,08:48:27.4243,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,08:48:27.4263,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,08:48:27.4298,Server Info,,,,,,TCPListener started
+2025-10-25,08:48:27.4308,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,08:48:27.4328,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,08:49:19.2354,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,08:49:19.2384,Server Info,,,,,,TCPListener stopped
+2025-10-25,08:50:19.7426,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,08:50:19.7447,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,08:50:19.7464,Server Info,,,,,,TCPListener started
+2025-10-25,08:50:19.7472,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,08:50:19.7493,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,08:51:06.3806,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,08:51:06.3836,Server Info,,,,,,TCPListener stopped
+2025-10-25,08:52:10.5769,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,08:52:10.5779,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,08:52:10.5799,Server Info,,,,,,TCPListener started
+2025-10-25,08:52:10.5819,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,08:52:10.5839,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,13:44:42.4301,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,13:44:42.4377,Server Info,,,,,,TCPListener stopped
+2025-10-25,13:56:33.4661,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,13:56:33.4691,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,13:56:33.4727,Server Info,,,,,,TCPListener started
+2025-10-25,13:56:33.4757,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,13:56:33.4780,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,13:57:36.6040,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,13:57:36.6063,Server Info,,,,,,TCPListener stopped
+2025-10-25,13:58:08.8391,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,13:58:08.8457,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,13:58:08.8514,Server Info,,,,,,TCPListener started
+2025-10-25,13:58:08.8558,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,13:58:08.8605,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,13:58:45.5312,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,13:58:45.5362,Server Info,,,,,,TCPListener stopped
+2025-10-25,13:59:43.3093,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,13:59:43.3126,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,13:59:43.3163,Server Info,,,,,,TCPListener started
+2025-10-25,13:59:43.3186,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,13:59:43.3208,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:00:20.7427,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:00:20.7477,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:01:08.1650,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:01:08.1693,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:01:08.1735,Server Info,,,,,,TCPListener started
+2025-10-25,14:01:08.1764,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:01:08.1800,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:01:44.9358,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:01:44.9528,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:02:09.8489,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:02:09.8532,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:02:09.8564,Server Info,,,,,,TCPListener started
+2025-10-25,14:02:09.8606,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:02:09.8636,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:02:50.5528,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:02:50.5553,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:03:20.3605,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:03:20.3620,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:03:20.3643,Server Info,,,,,,TCPListener started
+2025-10-25,14:03:20.3665,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:03:20.3685,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:04:17.6101,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:04:17.6149,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:05:20.1641,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:05:20.1683,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:05:20.1723,Server Info,,,,,,TCPListener started
+2025-10-25,14:05:20.1752,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:05:20.1780,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:06:02.8501,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:06:02.8528,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:06:44.6799,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:06:44.6842,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:06:44.6882,Server Info,,,,,,TCPListener started
+2025-10-25,14:06:44.6913,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:06:44.6943,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:07:35.0630,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:07:35.0682,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:08:27.5102,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:08:27.5125,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:08:27.5156,Server Info,,,,,,TCPListener started
+2025-10-25,14:08:27.5177,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:08:27.5200,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:09:50.5496,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:09:50.5536,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:09:58.0266,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:09:58.0296,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:09:58.0336,Server Info,,,,,,TCPListener started
+2025-10-25,14:09:58.0366,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:09:58.0396,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:09:58.6731,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:09:58.6781,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:10:25.7040,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:10:25.7070,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:10:25.7110,Server Info,,,,,,TCPListener started
+2025-10-25,14:10:25.7150,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:10:25.7180,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:11:03.0820,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:11:03.0859,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:11:49.7947,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:11:49.7982,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:11:49.8015,Server Info,,,,,,TCPListener started
+2025-10-25,14:11:49.8049,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:11:49.8085,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:12:25.6181,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:12:25.6216,Server Info,,,,,,TCPListener stopped
+2025-10-25,14:13:02.5602,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-25,14:13:02.5647,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-25,14:13:02.5696,Server Info,,,,,,TCPListener started
+2025-10-25,14:13:02.5734,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-25,14:13:02.5772,Server Info,,,,,,Waiting for connection[s]....
+2025-10-25,14:13:31.6545,Server Info,,,,,,Stopping the TCPListener...
+2025-10-25,14:13:31.6587,Server Info,,,,,,TCPListener stopped
+2025-10-30,10:44:05.9961,Server Info,,,,,,Stopping the TCPListener...
+2025-10-30,10:44:06.0060,Server Info,,,,,,TCPListener stopped
+2025-10-30,10:44:34.6757,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-30,10:44:34.6810,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-30,10:44:34.6868,Server Info,,,,,,TCPListener started
+2025-10-30,10:44:34.6926,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-30,10:44:34.6973,Server Info,,,,,,Waiting for connection[s]....
+2025-10-30,11:06:19.3009,Server Info,,,,,,Stopping the TCPListener...
+2025-10-30,11:06:19.3168,Server Info,,,,,,TCPListener stopped
+2025-10-30,11:06:55.9865,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-30,11:06:55.9946,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-30,11:06:56.0032,Server Info,,,,,,TCPListener started
+2025-10-30,11:06:56.0111,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-30,11:06:56.0200,Server Info,,,,,,Waiting for connection[s]....
+2025-10-30,11:07:06.3791,Error,,,,,751,6140 21092445V2.9#: Printer Error - Missing black mark.
+2025-10-30,11:07:06.4014,Error Handled,,,,,751,Cleared
+2025-10-30,11:09:01.4795,Server Info,,,,,,Stopping the TCPListener...
+2025-10-30,11:09:01.4951,Server Info,,,,,,TCPListener stopped
+2025-10-30,11:09:38.2468,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-30,11:09:38.2492,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-30,11:09:38.2534,Server Info,,,,,,TCPListener started
+2025-10-30,11:09:38.2566,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-30,11:09:38.2597,Server Info,,,,,,Waiting for connection[s]....
+2025-10-30,11:12:39.2660,Server Info,,,,,,Stopping the TCPListener...
+2025-10-30,11:12:39.2810,Server Info,,,,,,TCPListener stopped
+2025-10-30,11:13:01.9413,Server Info,,,,,,New AveryWebServer instance created!
+2025-10-30,11:13:01.9492,Server Info,,,,,,Starting TCPListener on port 8080
+2025-10-30,11:13:01.9580,Server Info,,,,,,TCPListener started
+2025-10-30,11:13:01.9649,Server Info,,,,,,Begining to listen for incomming connections
+2025-10-30,11:13:01.9723,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,08:09:17.9760,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,08:09:17.9815,Server Info,,,,,,TCPListener stopped
+2025-11-01,13:38:17.0903,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,13:38:17.0937,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,13:38:17.0991,Server Info,,,,,,TCPListener started
+2025-11-01,13:38:17.1024,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,13:38:17.1054,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,13:38:26.8087,Error,,,,,751,6140 21010010V2.9#: Printer Error - Missing black mark.
+2025-11-01,13:38:26.8231,Error Handled,,,,,751,Cleared
+2025-11-01,13:44:25.1198,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,13:44:25.1231,Server Info,,,,,,TCPListener stopped
+2025-11-01,13:45:35.7086,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,13:45:35.7107,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,13:45:35.7134,Server Info,,,,,,TCPListener started
+2025-11-01,13:45:35.7155,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,13:45:35.7175,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,13:46:28.5119,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,13:46:28.5164,Server Info,,,,,,TCPListener stopped
+2025-11-01,13:49:07.0577,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,13:49:07.0608,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,13:49:07.0638,Server Info,,,,,,TCPListener started
+2025-11-01,13:49:07.0660,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,13:49:07.0691,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,13:52:49.8756,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,13:52:49.8786,Server Info,,,,,,TCPListener stopped
+2025-11-01,13:54:27.5218,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,13:54:27.5258,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,13:54:27.5292,Server Info,,,,,,TCPListener started
+2025-11-01,13:54:27.5327,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,13:54:27.5371,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,13:55:21.5108,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,13:55:21.5152,Server Info,,,,,,TCPListener stopped
+2025-11-01,13:57:56.3470,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,13:57:56.3500,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,13:57:56.3530,Server Info,,,,,,TCPListener started
+2025-11-01,13:57:56.3553,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,13:57:56.3573,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,14:02:42.7494,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,14:02:42.7541,Server Info,,,,,,TCPListener stopped
+2025-11-01,14:07:53.4052,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,14:07:53.4073,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,14:07:53.4098,Server Info,,,,,,TCPListener started
+2025-11-01,14:07:53.4122,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,14:07:53.4134,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,14:08:23.4432,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,14:08:23.4482,Server Info,,,,,,TCPListener stopped
+2025-11-01,14:12:22.9492,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,14:12:22.9534,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,14:12:22.9575,Server Info,,,,,,TCPListener started
+2025-11-01,14:12:22.9613,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,14:12:22.9645,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,14:17:39.7611,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,14:17:39.7632,Server Info,,,,,,TCPListener stopped
+2025-11-01,14:19:08.7909,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,14:19:08.7932,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,14:19:08.7947,Server Info,,,,,,TCPListener started
+2025-11-01,14:19:08.7973,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,14:19:08.7988,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,14:25:18.2891,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,14:25:18.3037,Server Info,,,,,,TCPListener stopped
+2025-11-01,14:32:46.1171,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,14:32:46.1214,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,14:32:46.1249,Server Info,,,,,,TCPListener started
+2025-11-01,14:32:46.1285,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,14:32:46.1316,Server Info,,,,,,Waiting for connection[s]....
+2025-11-01,14:35:41.9893,Server Info,,,,,,Stopping the TCPListener...
+2025-11-01,14:35:41.9932,Server Info,,,,,,TCPListener stopped
+2025-11-01,14:38:09.9469,Error,,,,,751,6140 19096043V2.9#: Printer Error - Missing black mark.
+2025-11-01,14:38:09.9543,Error Handled,,,,,751,Cleared
+2025-11-01,14:38:10.8904,Error,,,,,751,6140 19096043V2.9#: Printer Error - Missing black mark.
+2025-11-01,14:38:10.9042,Error Handled,,,,,751,Cleared
+2025-11-01,14:38:10.9542,Error,,,,,751,6140 19096043V2.9#: Printer Error - Missing black mark.
+2025-11-01,14:38:10.9680,Error Handled,,,,,751,Cleared
+2025-11-01,14:38:19.3419,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-01,14:38:19.3461,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-01,14:38:19.3503,Server Info,,,,,,TCPListener started
+2025-11-01,14:38:19.3545,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-01,14:38:19.3576,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:20:06.1513,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:20:06.1617,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:21:14.9004,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:21:14.9053,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:21:14.9109,Server Info,,,,,,TCPListener started
+2025-11-08,15:21:14.9152,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:21:14.9196,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:22:27.3245,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:22:27.3307,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:23:00.7882,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:23:00.7914,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:23:00.7966,Server Info,,,,,,TCPListener started
+2025-11-08,15:23:00.8010,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:23:00.8040,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:24:15.8454,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:24:15.8506,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:24:55.6491,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:24:55.6537,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:24:55.6589,Server Info,,,,,,TCPListener started
+2025-11-08,15:24:55.6646,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:24:55.6688,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:26:08.3353,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:26:08.3436,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:26:36.4699,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:26:36.4769,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:26:36.4851,Server Info,,,,,,TCPListener started
+2025-11-08,15:26:36.4921,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:26:36.4989,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:27:37.7917,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:27:37.7995,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:28:09.9265,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:28:09.9311,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:28:09.9364,Server Info,,,,,,TCPListener started
+2025-11-08,15:28:09.9419,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:28:09.9465,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:29:11.6750,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:29:11.6803,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:30:03.9406,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:30:03.9442,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:30:03.9482,Server Info,,,,,,TCPListener started
+2025-11-08,15:30:03.9517,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:30:03.9550,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:31:09.6450,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:31:09.6511,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:34:43.5472,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:34:43.5552,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:34:43.5654,Server Info,,,,,,TCPListener started
+2025-11-08,15:34:43.5724,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:34:43.5807,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:35:37.2555,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:35:37.2617,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:36:25.9859,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:36:25.9942,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:38:26.2485,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:38:26.2539,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:38:26.2598,Server Info,,,,,,TCPListener started
+2025-11-08,15:38:26.2642,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:38:26.2688,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:38:28.8299,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:38:28.8364,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:38:52.9764,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:38:52.9913,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:40:02.5497,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:40:02.5548,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:40:02.5619,Server Info,,,,,,TCPListener started
+2025-11-08,15:40:02.5695,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:40:02.5757,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:40:59.2655,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:40:59.2743,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:41:50.8089,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:41:50.8173,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:41:50.8269,Server Info,,,,,,TCPListener started
+2025-11-08,15:41:50.8348,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-08,15:41:50.8429,Server Info,,,,,,Waiting for connection[s]....
+2025-11-08,15:42:51.1670,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:42:51.1756,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:43:18.6799,Server Info,,,,,,Stopping the TCPListener...
+2025-11-08,15:43:18.6914,Server Info,,,,,,TCPListener stopped
+2025-11-08,15:44:04.8395,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-08,15:44:04.8440,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-08,15:44:04.8500,Server Error,,,,,-2,Exception Starting Port Listener:Only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-11-14,14:35:05.8750,Server Info,,,,,,Stopping the TCPListener...
+2025-11-14,14:35:05.8819,Server Info,,,,,,TCPListener stopped
+2025-11-14,14:38:16.6105,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-14,14:38:16.6177,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-14,14:38:16.6258,Server Info,,,,,,TCPListener started
+2025-11-14,14:38:16.6339,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-14,14:38:16.6410,Server Info,,,,,,Waiting for connection[s]....
+2025-11-14,14:39:57.9239,Server Info,,,,,,Stopping the TCPListener...
+2025-11-14,14:39:57.9279,Server Info,,,,,,TCPListener stopped
+2025-11-14,14:43:02.7134,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-14,14:43:02.7204,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-14,14:43:02.7293,Server Info,,,,,,TCPListener started
+2025-11-14,14:43:02.7367,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-14,14:43:02.7441,Server Info,,,,,,Waiting for connection[s]....
+2025-11-14,14:44:28.2501,Server Info,,,,,,Stopping the TCPListener...
+2025-11-14,14:44:28.2584,Server Info,,,,,,TCPListener stopped
+2025-11-14,14:44:56.0600,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-14,14:44:56.0651,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-14,14:44:56.0713,Server Info,,,,,,TCPListener started
+2025-11-14,14:44:56.0765,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-14,14:44:56.0818,Server Info,,,,,,Waiting for connection[s]....
+2025-11-14,14:45:17.3552,Error,,,,,756,6140 19096043V2.: Printer Error - Out of stock.
+2025-11-14,14:45:17.3730,Error Handled,,,,,756,Aborted
+2025-11-14,14:47:43.4351,Server Info,,,,,,Stopping the TCPListener...
+2025-11-14,14:47:43.4455,Server Info,,,,,,TCPListener stopped
+2025-11-14,14:52:58.1900,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-14,14:52:58.1932,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-14,14:52:58.1992,Server Info,,,,,,TCPListener started
+2025-11-14,14:52:58.2025,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-14,14:52:58.2070,Server Info,,,,,,Waiting for connection[s]....
+2025-11-14,14:53:29.2936,Server Info,,,,,,Stopping the TCPListener...
+2025-11-14,14:53:29.2999,Server Info,,,,,,TCPListener stopped
+2025-11-14,15:00:27.0092,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-14,15:00:27.0125,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-14,15:00:27.0171,Server Info,,,,,,TCPListener started
+2025-11-14,15:00:27.0209,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-14,15:00:27.0259,Server Info,,,,,,Waiting for connection[s]....
+2025-11-14,15:01:38.9771,Server Info,,,,,,Stopping the TCPListener...
+2025-11-14,15:01:38.9833,Server Info,,,,,,TCPListener stopped
+2025-11-14,15:10:10.5181,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-14,15:10:10.5231,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-14,15:10:10.5291,Server Info,,,,,,TCPListener started
+2025-11-14,15:10:10.5341,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-14,15:10:10.5391,Server Info,,,,,,Waiting for connection[s]....
+2025-11-14,15:10:57.6723,Server Info,,,,,,Stopping the TCPListener...
+2025-11-14,15:10:57.6773,Server Info,,,,,,TCPListener stopped
+2025-11-14,15:18:36.3120,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-14,15:18:36.3160,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-14,15:18:36.3211,Server Info,,,,,,TCPListener started
+2025-11-14,15:18:36.3252,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-14,15:18:36.3287,Server Info,,,,,,Waiting for connection[s]....
+2025-11-14,15:19:53.8161,Server Info,,,,,,Stopping the TCPListener...
+2025-11-14,15:19:53.8240,Server Info,,,,,,TCPListener stopped
+2025-11-14,15:21:19.9450,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-14,15:21:19.9532,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-14,15:21:19.9627,Server Info,,,,,,TCPListener started
+2025-11-14,15:21:19.9701,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-14,15:21:19.9776,Server Info,,,,,,Waiting for connection[s]....
+2025-11-14,15:21:32.3411,Error,,,,,756,6140 22088166V2.: Printer Error - Out of stock.
+2025-11-14,15:21:32.3710,Error Handled,,,,,756,Aborted
+2025-11-20,15:18:12.2941,Server Info,,,,,,Stopping the TCPListener...
+2025-11-20,15:18:12.3071,Server Info,,,,,,TCPListener stopped
+2025-11-20,15:19:26.1420,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-20,15:19:26.1454,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-20,15:19:26.1477,Server Info,,,,,,TCPListener started
+2025-11-20,15:19:26.1502,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-20,15:19:26.1529,Server Info,,,,,,Waiting for connection[s]....
+2025-11-20,15:19:45.6121,Server Info,,,,,,Stopping the TCPListener...
+2025-11-20,15:19:45.6164,Server Info,,,,,,TCPListener stopped
+2025-11-22,12:10:48.0243,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,12:10:48.0341,Server Info,,,,,,TCPListener stopped
+2025-11-22,12:11:45.6275,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,12:11:45.6301,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,12:11:45.6317,Server Info,,,,,,TCPListener started
+2025-11-22,12:11:45.6333,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,12:11:45.6357,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,12:12:30.0677,Info,,,,,,"Scan Data Recieved from 6140. Symbology: DataMatrix, Data: SB71jvf1gg_001_v"
+2025-11-22,12:12:30.0976,Scan,SB71jvf1gg_001_v,,,,,
+2025-11-22,12:12:32.0012,Info,,,,,,"Scan Data Recieved from 6140. Symbology: DataMatrix, Data: SB71jvf1gg_001_v"
+2025-11-22,12:12:32.0090,Scan,SB71jvf1gg_001_v,,,,,
+2025-11-22,12:13:04.9113,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,12:13:04.9155,Server Info,,,,,,TCPListener stopped
+2025-11-22,12:13:23.4116,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,12:13:23.4140,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,12:13:23.4169,Server Info,,,,,,TCPListener started
+2025-11-22,12:13:23.4191,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,12:13:23.4212,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,14:37:51.7809,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,14:37:51.8001,Server Info,,,,,,TCPListener stopped
+2025-11-22,14:38:51.3377,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,14:38:51.3450,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,14:38:51.3531,Server Info,,,,,,TCPListener started
+2025-11-22,14:38:51.3590,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,14:38:51.3655,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,14:40:25.1352,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,14:40:25.1428,Server Info,,,,,,TCPListener stopped
+2025-11-22,14:41:29.8469,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,14:41:29.8513,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,14:41:29.8564,Server Info,,,,,,TCPListener started
+2025-11-22,14:41:29.8604,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,14:41:29.8652,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,14:42:59.3307,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,14:42:59.3401,Server Info,,,,,,TCPListener stopped
+2025-11-22,14:43:28.6813,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,14:43:28.6946,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,14:43:28.7039,Server Info,,,,,,TCPListener started
+2025-11-22,14:43:28.7121,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,14:43:28.7203,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,14:43:28.9414,Info,,,,,,"Scan Data Recieved from 6140. Symbology: Unknown, Data: NR"
+2025-11-22,14:43:28.9488,Info,,,,,,Exiting Scan Data function with a No Read Scan.
+2025-11-22,14:43:40.1205,Info,,,,,,"Scan Data Recieved from 6140. Symbology: Unknown, Data: NR"
+2025-11-22,14:43:40.1278,Info,,,,,,Exiting Scan Data function with a No Read Scan.
+2025-11-22,14:43:58.3731,Info,,,,,,"Scan Data Recieved from 6140. Symbology: Unknown, Data: NR"
+2025-11-22,14:43:58.3787,Info,,,,,,Exiting Scan Data function with a No Read Scan.
+2025-11-22,14:44:04.9115,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,14:44:04.9173,Server Info,,,,,,TCPListener stopped
+2025-11-22,14:45:42.2376,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,14:45:42.2418,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,14:45:42.2470,Server Info,,,,,,TCPListener started
+2025-11-22,14:45:42.2522,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,14:45:42.2574,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,14:45:57.2678,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,14:45:57.2738,Server Info,,,,,,TCPListener stopped
+2025-11-22,14:48:00.8953,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,14:48:00.9031,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,14:48:00.9106,Server Info,,,,,,TCPListener started
+2025-11-22,14:48:00.9184,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,14:48:00.9255,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,14:50:36.7885,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,14:50:36.7975,Server Info,,,,,,TCPListener stopped
+2025-11-22,15:15:49.1968,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,15:15:49.2118,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,15:15:49.2176,Server Info,,,,,,TCPListener started
+2025-11-22,15:15:49.2219,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,15:15:49.2271,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,15:15:54.0453,Error,,,,,1,6140 20030240V2.: Printer Error - Method not implemented.
+2025-11-22,15:15:57.6391,Error Handled,,,,,1,Cleared
+2025-11-22,15:15:57.9849,Error,,,,,751,6140 20030240V2.: Printer Error - Missing black mark.
+2025-11-22,15:15:58.0060,Error Handled,,,,,751,Cleared
+2025-11-22,15:17:22.8867,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,15:17:22.9048,Server Info,,,,,,TCPListener stopped
+2025-11-22,15:17:50.1652,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,15:17:50.1704,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,15:17:50.1765,Server Info,,,,,,TCPListener started
+2025-11-22,15:17:50.1816,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,15:17:50.1860,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,15:19:17.1178,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,15:19:17.1244,Server Info,,,,,,TCPListener stopped
+2025-11-22,15:20:08.2192,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,15:20:08.2234,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,15:20:08.2296,Server Info,,,,,,TCPListener started
+2025-11-22,15:20:08.2342,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,15:20:08.2384,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,15:21:40.1657,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,15:21:40.1711,Server Info,,,,,,TCPListener stopped
+2025-11-22,15:24:38.7078,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-22,15:24:38.7266,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-22,15:24:38.7356,Server Info,,,,,,TCPListener started
+2025-11-22,15:24:38.7441,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-22,15:24:38.7523,Server Info,,,,,,Waiting for connection[s]....
+2025-11-22,15:24:43.6839,Error,,,,,1,6140 24038437V2.: Printer Error - Method not implemented.
+2025-11-22,15:24:46.5771,Error Handled,,,,,1,Cleared
+2025-11-22,15:24:46.9280,Error,,,,,751,6140 24038437V2.: Printer Error - Missing black mark.
+2025-11-22,15:24:46.9540,Error Handled,,,,,751,Cleared
+2025-11-22,15:25:35.3790,Server Info,,,,,,Stopping the TCPListener...
+2025-11-22,15:25:35.3858,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:14:20.2904,Server Info,,,,,,Stopping the TCPListener...
+2025-11-23,15:14:20.3007,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:14:59.4455,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-23,15:14:59.4527,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-23,15:14:59.4608,Server Info,,,,,,TCPListener started
+2025-11-23,15:14:59.4679,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-23,15:14:59.4754,Server Info,,,,,,Waiting for connection[s]....
+2025-11-23,15:15:44.2265,Server Info,,,,,,Stopping the TCPListener...
+2025-11-23,15:15:44.2341,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:16:26.6156,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-23,15:16:26.6198,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-23,15:16:26.6260,Server Info,,,,,,TCPListener started
+2025-11-23,15:16:26.6315,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-23,15:16:26.6366,Server Info,,,,,,Waiting for connection[s]....
+2025-11-23,15:17:36.2557,Server Info,,,,,,Stopping the TCPListener...
+2025-11-23,15:17:36.2601,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:18:24.8957,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-23,15:18:24.9033,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-23,15:18:24.9106,Server Info,,,,,,TCPListener started
+2025-11-23,15:18:24.9184,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-23,15:18:24.9260,Server Info,,,,,,Waiting for connection[s]....
+2025-11-23,15:19:00.1183,Server Info,,,,,,Stopping the TCPListener...
+2025-11-23,15:19:00.1235,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:19:56.1204,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-23,15:19:56.1274,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-23,15:19:56.1365,Server Info,,,,,,TCPListener started
+2025-11-23,15:19:56.1448,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-23,15:19:56.1529,Server Info,,,,,,Waiting for connection[s]....
+2025-11-23,15:20:43.9465,Server Info,,,,,,Stopping the TCPListener...
+2025-11-23,15:20:43.9540,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:22:19.9109,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-23,15:22:19.9184,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-23,15:22:19.9278,Server Info,,,,,,TCPListener started
+2025-11-23,15:22:19.9350,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-23,15:22:19.9426,Server Info,,,,,,Waiting for connection[s]....
+2025-11-23,15:26:15.2103,Server Info,,,,,,Stopping the TCPListener...
+2025-11-23,15:26:15.2217,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:27:04.0689,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-23,15:27:04.0765,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-23,15:27:04.0856,Server Info,,,,,,TCPListener started
+2025-11-23,15:27:04.0941,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-23,15:27:04.1016,Server Info,,,,,,Waiting for connection[s]....
+2025-11-23,15:28:00.5816,Server Info,,,,,,Stopping the TCPListener...
+2025-11-23,15:28:00.5876,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:28:36.0011,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-23,15:28:36.0086,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-23,15:28:36.0174,Server Info,,,,,,TCPListener started
+2025-11-23,15:28:36.0250,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-23,15:28:36.0314,Server Info,,,,,,Waiting for connection[s]....
+2025-11-23,15:29:16.1488,Server Info,,,,,,Stopping the TCPListener...
+2025-11-23,15:29:16.1533,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:29:42.8263,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-23,15:29:42.8337,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-23,15:29:42.8433,Server Info,,,,,,TCPListener started
+2025-11-23,15:29:42.8515,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-23,15:29:42.8598,Server Info,,,,,,Waiting for connection[s]....
+2025-11-23,15:30:26.6986,Server Info,,,,,,Stopping the TCPListener...
+2025-11-23,15:30:26.7026,Server Info,,,,,,TCPListener stopped
+2025-11-23,15:31:04.3791,Server Info,,,,,,New AveryWebServer instance created!
+2025-11-23,15:31:04.3867,Server Info,,,,,,Starting TCPListener on port 8080
+2025-11-23,15:31:04.3945,Server Info,,,,,,TCPListener started
+2025-11-23,15:31:04.4015,Server Info,,,,,,Begining to listen for incomming connections
+2025-11-23,15:31:04.4085,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,15:53:24.7295,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,15:53:24.7389,Server Info,,,,,,TCPListener stopped
+2025-12-07,15:53:50.0767,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,15:53:50.0791,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,15:53:50.0825,Server Info,,,,,,TCPListener started
+2025-12-07,15:53:50.0845,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,15:53:50.0867,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,15:54:27.1081,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,15:54:27.1111,Server Info,,,,,,TCPListener stopped
+2025-12-07,15:55:09.0948,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,15:55:09.0978,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,15:55:09.1018,Server Info,,,,,,TCPListener started
+2025-12-07,15:55:09.1057,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,15:55:09.1082,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,15:55:44.1303,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,15:55:44.1334,Server Info,,,,,,TCPListener stopped
+2025-12-07,15:56:21.4258,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,15:56:21.4281,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,15:56:21.4302,Server Info,,,,,,TCPListener started
+2025-12-07,15:56:21.4332,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,15:56:21.4354,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,15:56:48.5410,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,15:56:48.5444,Server Info,,,,,,TCPListener stopped
+2025-12-07,15:57:42.0818,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,15:57:42.0857,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,15:57:42.0910,Server Info,,,,,,TCPListener started
+2025-12-07,15:57:42.0943,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,15:57:42.0969,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,15:57:57.1785,Error,,,,,751,6140 22088166V2.: Printer Error - Missing black mark.
+2025-12-07,15:57:57.1888,Error Handled,,,,,751,Cleared
+2025-12-07,15:58:47.9253,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,15:58:47.9289,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:02:10.5413,Error,,,,,751,6140 19036063V2.: Printer Error - Missing black mark.
+2025-12-07,16:02:10.5502,Error Handled,,,,,751,Cleared
+2025-12-07,16:02:17.0509,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:02:17.0530,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:02:17.0551,Server Info,,,,,,TCPListener started
+2025-12-07,16:02:17.0574,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:02:17.0596,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:03:10.3181,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:03:10.3221,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:04:16.7095,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:04:16.7104,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:04:16.7140,Server Info,,,,,,TCPListener started
+2025-12-07,16:04:16.7159,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:04:16.7179,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:04:43.2003,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:04:43.2048,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:05:35.0845,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:05:35.0875,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:05:35.0900,Server Info,,,,,,TCPListener started
+2025-12-07,16:05:35.0934,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:05:35.0956,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:05:39.5771,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:05:39.5835,Error Handled,,,,,751,Cleared
+2025-12-07,16:05:43.9634,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:05:43.9709,Error Handled,,,,,751,Cleared
+2025-12-07,16:05:48.3608,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:05:48.3732,Error Handled,,,,,751,Cleared
+2025-12-07,16:05:52.6871,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:05:52.6976,Error Handled,,,,,751,Cleared
+2025-12-07,16:05:57.0226,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:05:57.0357,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:01.4448,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:01.4556,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:05.8539,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:05.8628,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:10.1825,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:10.1903,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:14.5046,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:14.5175,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:15.7566,Info,,,,,,"Scan Data Recieved from 6140. Symbology: Unknown, Data: NR"
+2025-12-07,16:06:15.7595,Info,,,,,,Exiting Scan Data function with a No Read Scan.
+2025-12-07,16:06:18.8360,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:18.8435,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:23.2868,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:23.2994,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:27.5829,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:27.5936,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:32.0152,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:32.0244,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:36.3744,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:36.3814,Error Handled,,,,,751,Cleared
+2025-12-07,16:06:40.6993,Error,,,,,751,6140 19124259V2.: Printer Error - Missing black mark.
+2025-12-07,16:06:40.7124,Error Handled,,,,,751,Cleared
+2025-12-07,16:07:54.8660,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:07:54.8683,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:08:38.6853,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:08:38.6872,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:08:38.6904,Server Info,,,,,,TCPListener started
+2025-12-07,16:08:38.6925,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:08:38.6951,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:09:25.8472,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:09:25.8512,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:10:06.7688,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:10:06.7712,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:10:06.7735,Server Info,,,,,,TCPListener started
+2025-12-07,16:10:06.7761,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:10:06.7780,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:10:45.7323,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:10:45.7343,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:11:39.2897,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:11:39.2930,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:11:39.2951,Server Info,,,,,,TCPListener started
+2025-12-07,16:11:39.2973,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:11:39.2985,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:12:24.5205,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:12:24.5248,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:12:46.4372,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:12:46.4396,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:12:46.4418,Server Info,,,,,,TCPListener started
+2025-12-07,16:12:46.4455,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:12:46.4477,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:13:33.7516,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:13:33.7566,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:14:09.1785,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:14:09.1835,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:14:09.1897,Server Info,,,,,,TCPListener started
+2025-12-07,16:14:09.1940,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:14:09.1978,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:14:42.0065,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:14:42.0100,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:15:13.1558,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:15:13.1589,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:15:13.1613,Server Info,,,,,,TCPListener started
+2025-12-07,16:15:13.1636,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:15:13.1658,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:15:44.6161,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:15:44.6204,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:16:28.7680,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:16:28.7701,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:16:28.7727,Server Info,,,,,,TCPListener started
+2025-12-07,16:16:28.7753,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:16:28.7768,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:16:45.5564,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:16:45.5600,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:17:18.7643,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:17:18.7674,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:17:18.7709,Server Info,,,,,,TCPListener started
+2025-12-07,16:17:18.7741,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:17:18.7772,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:17:19.4858,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:17:19.4908,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:17:46.3834,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:17:46.3862,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:17:46.3895,Server Info,,,,,,TCPListener started
+2025-12-07,16:17:46.3923,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:17:46.3955,Server Info,,,,,,Waiting for connection[s]....
+2025-12-07,16:18:25.4811,Server Info,,,,,,Stopping the TCPListener...
+2025-12-07,16:18:25.4843,Server Info,,,,,,TCPListener stopped
+2025-12-07,16:18:49.8846,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-07,16:18:49.8902,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-07,16:18:49.8950,Server Info,,,,,,TCPListener started
+2025-12-07,16:18:49.8994,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-07,16:18:49.9035,Server Info,,,,,,Waiting for connection[s]....
+2025-12-14,06:51:54.1782,Server Info,,,,,,Stopping the TCPListener...
+2025-12-14,06:51:54.1908,Server Info,,,,,,TCPListener stopped
+2025-12-14,06:52:43.0269,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-14,06:52:43.0308,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-14,06:52:43.0348,Server Info,,,,,,TCPListener started
+2025-12-14,06:52:43.0385,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-14,06:52:43.0430,Server Info,,,,,,Waiting for connection[s]....
+2025-12-14,06:52:55.5413,Error,,,,,751,6140 20021674V2.: Printer Error - Missing black mark.
+2025-12-14,06:52:55.5640,Error Handled,,,,,751,Cleared
+2025-12-14,06:53:11.0967,Server Info,,,,,,Stopping the TCPListener...
+2025-12-14,06:53:11.1009,Server Info,,,,,,TCPListener stopped
+2025-12-14,06:54:35.3868,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-14,06:54:35.3951,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-14,06:54:35.4022,Server Info,,,,,,TCPListener started
+2025-12-14,06:54:35.4100,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-14,06:54:35.4172,Server Info,,,,,,Waiting for connection[s]....
+2025-12-14,06:56:44.8405,Server Info,,,,,,Stopping the TCPListener...
+2025-12-14,06:56:44.8522,Server Info,,,,,,TCPListener stopped
+2025-12-14,06:57:11.3998,Server Info,,,,,,New AveryWebServer instance created!
+2025-12-14,06:57:11.4042,Server Info,,,,,,Starting TCPListener on port 8080
+2025-12-14,06:57:11.4088,Server Info,,,,,,TCPListener started
+2025-12-14,06:57:11.4130,Server Info,,,,,,Begining to listen for incomming connections
+2025-12-14,06:57:11.4184,Server Info,,,,,,Waiting for connection[s]....
+2025-12-14,06:57:25.7851,Error,,,,,706,6140 22011451V2.9#: Printer Error - Motor Jam or Encoder error.
+2025-12-14,06:57:25.8101,Error Handled,,,,,706,Aborted
+2025-12-14,06:57:36.1481,Error,,,,,706,6140 22011451V2.9#: Printer Error - Motor Jam or Encoder error.
+2025-12-14,06:57:36.1705,Error Handled,,,,,706,Aborted
+2025-12-14,06:57:39.4137,Error,,,,,706,6140 22011451V2.9#: Printer Error - Motor Jam or Encoder error.
+2025-12-14,06:57:39.4273,Error Handled,,,,,706,Aborted
+2025-12-14,06:57:40.4346,Error,,,,,706,6140 22011451V2.9#: Printer Error - Motor Jam or Encoder error.
+2025-12-14,06:57:40.4708,Error Handled,,,,,706,Aborted
+2025-12-14,06:57:41.2772,Error,,,,,706,6140 22011451V2.9#: Printer Error - Motor Jam or Encoder error.
+2025-12-14,06:57:41.2929,Error Handled,,,,,706,Aborted
+2025-12-14,06:57:43.2187,Error,,,,,706,6140 22011451V2.9#: Printer Error - Motor Jam or Encoder error.
+2025-12-14,06:57:43.2479,Error Handled,,,,,706,Aborted
+2025-12-14,06:57:45.0889,Error,,,,,706,6140 22011451V2.9#: Printer Error - Motor Jam or Encoder error.
+2025-12-14,06:57:45.1050,Error Handled,,,,,706,Aborted
+2025-12-14,06:57:50.3129,Error,,,,,706,6140 22011451V2.9#: Printer Error - Motor Jam or Encoder error.
+2025-12-14,06:57:50.3295,Error Handled,,,,,706,Aborted
+2026-01-09,06:30:16.0674,Server Info,,,,,,Stopping the TCPListener...
+2026-01-09,06:30:16.0778,Server Info,,,,,,TCPListener stopped
+2026-01-09,06:30:48.3754,Server Info,,,,,,New AveryWebServer instance created!
+2026-01-09,06:30:48.3846,Server Info,,,,,,Starting TCPListener on port 8080
+2026-01-09,06:30:48.3935,Server Info,,,,,,TCPListener started
+2026-01-09,06:30:48.4016,Server Info,,,,,,Begining to listen for incomming connections
+2026-01-09,06:30:48.4069,Server Info,,,,,,Waiting for connection[s]....
+2026-01-09,07:28:38.9739,Server Info,,,,,,Stopping the TCPListener...
+2026-01-09,07:28:38.9877,Server Info,,,,,,TCPListener stopped
+2026-01-09,07:29:55.4773,Server Info,,,,,,New AveryWebServer instance created!
+2026-01-09,07:29:55.4815,Server Info,,,,,,Starting TCPListener on port 8080
+2026-01-09,07:29:55.4883,Server Info,,,,,,TCPListener started
+2026-01-09,07:29:55.4927,Server Info,,,,,,Begining to listen for incomming connections
+2026-01-09,07:29:55.4958,Server Info,,,,,,Waiting for connection[s]....
+2026-01-09,07:30:02.9684,Error,,,,,751,6140 20091218V2.: Printer Error - Missing black mark.
+2026-01-09,07:30:03.0097,Error Handled,,,,,751,Cleared
+2026-01-09,07:31:01.7680,Server Info,,,,,,Stopping the TCPListener...
+2026-01-09,07:31:01.7770,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:09:36.6408,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:09:36.6512,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:10:45.7434,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:10:45.7464,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:10:45.7514,Server Info,,,,,,TCPListener started
+2026-02-14,13:10:45.7554,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:10:45.7594,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:11:31.3567,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:11:31.3620,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:11:59.0786,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:11:59.0836,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:11:59.0897,Server Info,,,,,,TCPListener started
+2026-02-14,13:11:59.0947,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:11:59.0998,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:12:53.6524,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:12:53.6579,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:13:27.1028,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:13:27.1104,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:13:27.1201,Server Info,,,,,,TCPListener started
+2026-02-14,13:13:27.1270,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:13:27.1344,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:13:54.1193,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:13:54.1252,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:14:25.4997,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:14:25.5081,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:14:25.5166,Server Info,,,,,,TCPListener started
+2026-02-14,13:14:25.5260,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:14:25.5366,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:18:02.0971,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:18:02.1064,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:18:46.3068,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:18:46.3123,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:18:46.3194,Server Info,,,,,,TCPListener started
+2026-02-14,13:18:46.3241,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:18:46.3277,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:19:16.3287,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:19:16.3329,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:19:49.5775,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:19:49.5829,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:19:49.5892,Server Info,,,,,,TCPListener started
+2026-02-14,13:19:49.5932,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:19:49.5982,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:20:21.3525,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:20:21.3591,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:20:44.9312,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:20:44.9403,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:20:44.9499,Server Info,,,,,,TCPListener started
+2026-02-14,13:20:44.9585,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:20:44.9677,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:21:27.8549,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:21:27.8599,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:21:52.3983,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:21:52.4036,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:21:52.4088,Server Info,,,,,,TCPListener started
+2026-02-14,13:21:52.4130,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:21:52.4172,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:27:10.5927,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:27:10.6025,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:27:41.2323,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:27:41.2354,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:27:41.2395,Server Info,,,,,,TCPListener started
+2026-02-14,13:27:41.2438,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:27:41.2469,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:28:14.0670,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:28:14.0729,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:28:47.3991,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:28:47.4078,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:28:47.4170,Server Info,,,,,,TCPListener started
+2026-02-14,13:28:47.4263,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:28:47.4346,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:31:18.4490,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:31:18.4543,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:31:52.0950,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:31:52.1007,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:31:52.1065,Server Info,,,,,,TCPListener started
+2026-02-14,13:31:52.1112,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:31:52.1154,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:37:09.4313,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:37:09.4363,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:37:39.3257,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:37:39.3308,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:37:39.3351,Server Info,,,,,,TCPListener started
+2026-02-14,13:37:39.3391,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:37:39.3433,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:38:32.3938,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:38:32.4009,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:39:25.5484,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:39:25.5537,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:39:25.5589,Server Info,,,,,,TCPListener started
+2026-02-14,13:39:25.5642,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:39:25.5696,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:40:04.8424,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:40:04.8511,Server Info,,,,,,TCPListener stopped
+2026-02-14,13:40:53.8711,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-14,13:40:53.8775,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-14,13:40:53.8828,Server Info,,,,,,TCPListener started
+2026-02-14,13:40:53.8881,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-14,13:40:53.8937,Server Info,,,,,,Waiting for connection[s]....
+2026-02-14,13:41:50.9138,Server Info,,,,,,Stopping the TCPListener...
+2026-02-14,13:41:50.9235,Server Info,,,,,,TCPListener stopped
+2026-02-19,12:47:37.7122,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,12:47:37.7227,Server Info,,,,,,TCPListener stopped
+2026-02-19,12:51:19.3040,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,12:51:19.3120,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,12:51:19.3196,Server Info,,,,,,TCPListener started
+2026-02-19,12:51:19.3256,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,12:51:19.3306,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,12:51:48.7083,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,12:51:48.7143,Server Info,,,,,,TCPListener stopped
+2026-02-19,12:52:33.3961,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,12:52:33.4040,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,12:52:33.4125,Server Info,,,,,,TCPListener started
+2026-02-19,12:52:33.4197,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,12:52:33.4275,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,12:52:49.8128,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,12:52:49.8189,Server Info,,,,,,TCPListener stopped
+2026-02-19,12:53:16.4935,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,12:53:16.4992,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,12:53:16.5048,Server Info,,,,,,TCPListener started
+2026-02-19,12:53:16.5102,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,12:53:16.5153,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,12:53:38.0892,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,12:53:38.1070,Server Info,,,,,,TCPListener stopped
+2026-02-19,12:54:02.7790,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,12:54:02.7843,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,12:54:02.7902,Server Info,,,,,,TCPListener started
+2026-02-19,12:54:02.7956,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,12:54:02.8008,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,12:54:10.6234,Error,,,,,751,6140 20010733V2.9#: Printer Error - Missing black mark.
+2026-02-19,12:54:10.6481,Error Handled,,,,,751,Cleared
+2026-02-19,12:54:40.8838,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,12:54:40.8899,Server Info,,,,,,TCPListener stopped
+2026-02-19,12:55:13.2128,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,12:55:13.2214,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,12:55:13.2307,Server Info,,,,,,TCPListener started
+2026-02-19,12:55:13.2403,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,12:55:13.2470,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,12:55:38.9254,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,12:55:38.9311,Server Info,,,,,,TCPListener stopped
+2026-02-19,12:56:25.6105,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,12:56:25.6155,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,12:56:25.6225,Server Info,,,,,,TCPListener started
+2026-02-19,12:56:25.6271,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,12:56:25.6332,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,12:56:46.2873,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,12:56:46.2926,Server Info,,,,,,TCPListener stopped
+2026-02-19,12:57:12.8981,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,12:57:12.9024,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,12:57:12.9074,Server Info,,,,,,TCPListener started
+2026-02-19,12:57:12.9131,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,12:57:12.9171,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,12:57:43.3140,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,12:57:43.3210,Server Info,,,,,,TCPListener stopped
+2026-02-19,13:23:48.9862,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,13:23:49.0008,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,13:23:49.0075,Server Info,,,,,,TCPListener started
+2026-02-19,13:23:49.0127,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,13:23:49.0179,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,13:24:14.5180,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,13:24:14.5233,Server Info,,,,,,TCPListener stopped
+2026-02-19,13:24:48.1932,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,13:24:48.2018,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,13:24:48.2118,Server Info,,,,,,TCPListener started
+2026-02-19,13:24:48.2215,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,13:24:48.2296,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,13:25:12.8058,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,13:25:12.8129,Server Info,,,,,,TCPListener stopped
+2026-02-19,13:26:40.5876,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,13:26:40.5951,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,13:26:40.6025,Server Info,,,,,,TCPListener started
+2026-02-19,13:26:40.6088,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,13:26:40.6163,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,13:28:04.2276,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,13:28:04.2419,Server Info,,,,,,TCPListener stopped
+2026-02-19,13:29:27.1070,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,13:29:27.1141,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,13:29:27.1226,Server Info,,,,,,TCPListener started
+2026-02-19,13:29:27.1297,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,13:29:27.1368,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,13:35:35.8554,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,13:35:35.8667,Server Info,,,,,,TCPListener stopped
+2026-02-19,13:36:14.7824,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,13:36:14.7897,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,13:36:14.7970,Server Info,,,,,,TCPListener started
+2026-02-19,13:36:14.8014,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,13:36:14.8057,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,13:36:55.8069,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,13:36:55.8124,Server Info,,,,,,TCPListener stopped
+2026-02-19,13:37:30.2971,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,13:37:30.3052,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,13:37:30.3134,Server Info,,,,,,TCPListener started
+2026-02-19,13:37:30.3208,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,13:37:30.3286,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,13:38:08.8853,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,13:38:08.8907,Server Info,,,,,,TCPListener stopped
+2026-02-19,13:38:47.5543,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,13:38:47.5625,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,13:38:47.5726,Server Info,,,,,,TCPListener started
+2026-02-19,13:38:47.5812,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,13:38:47.5915,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,13:39:12.0000,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,13:39:12.0054,Server Info,,,,,,TCPListener stopped
+2026-02-19,13:39:46.5590,Server Info,,,,,,New AveryWebServer instance created!
+2026-02-19,13:39:46.5641,Server Info,,,,,,Starting TCPListener on port 8080
+2026-02-19,13:39:46.5701,Server Info,,,,,,TCPListener started
+2026-02-19,13:39:46.5746,Server Info,,,,,,Begining to listen for incomming connections
+2026-02-19,13:39:46.5798,Server Info,,,,,,Waiting for connection[s]....
+2026-02-19,13:43:14.3568,Server Info,,,,,,Stopping the TCPListener...
+2026-02-19,13:43:14.3662,Server Info,,,,,,TCPListener stopped
+2026-03-07,12:43:11.4990,Server Info,,,,,,Stopping the TCPListener...
+2026-03-07,12:43:11.5074,Server Info,,,,,,TCPListener stopped
+2026-03-07,12:44:00.6090,Server Info,,,,,,New AveryWebServer instance created!
+2026-03-07,12:44:00.6132,Server Info,,,,,,Starting TCPListener on port 8080
+2026-03-07,12:44:00.6176,Server Info,,,,,,TCPListener started
+2026-03-07,12:44:00.6211,Server Info,,,,,,Begining to listen for incomming connections
+2026-03-07,12:44:00.6245,Server Info,,,,,,Waiting for connection[s]....
+2026-03-07,12:44:39.9088,Server Info,,,,,,Stopping the TCPListener...
+2026-03-07,12:44:39.9119,Server Info,,,,,,TCPListener stopped
+2026-03-29,01:15:16.7686,Server Info,,,,,,Stopping the TCPListener...
+2026-03-29,01:15:16.7709,Server Info,,,,,,TCPListener stopped

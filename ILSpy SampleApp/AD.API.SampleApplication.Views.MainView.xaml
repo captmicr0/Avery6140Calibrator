@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page x:Class="AD.API.SampleApplication.Views.MainView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:userControls="clr-namespace:AD.API.SampleApplication.Controls.UserControls" Title="MainView" ShowsNavigationUI="False" MaxHeight="300" xmlns:views="clr-namespace:AD.API.SampleApplication.Views">
+  <Grid IsEnabled="{Binding Path=IsActionAvailable}" />
+</Page>

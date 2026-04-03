@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<barcodes:BaseBarcodeView x:Class="AD.API.SampleApplication.Views.Barcodes.OneDimentional.CodabarView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:barcodes="clr-namespace:AD.API.SampleApplication.Views.Barcodes" xmlns:tools="clr-namespace:AD.API.SampleApplication.Tools" xmlns:userControls="clr-namespace:AD.API.SampleApplication.Controls.UserControls" Title="CodabarView" xmlns:onedimentional="clr-namespace:AD.API.SampleApplication.Views.Barcodes.OneDimentional">
+  <Grid Margin="20" IsEnabled="{Binding Path=IsActionAvailable}">
+    <FrameworkElement.Resources>
+      <ResourceDictionary>
+        <tools:BoolInverterConverter x:Key="boolInverterConverter" />
+      </ResourceDictionary>
+    </FrameworkElement.Resources>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <StackPanel Orientation="Vertical" Grid.Row="0">
+      <Border Style="{StaticResource DefaultBorderStyle}">
+        <Grid Name="EnabledGrid">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <Label Name="EnabledLabel" Style="{StaticResource SettingsLabel}" Grid.Column="0">Enabled</Label>
+          <RadioButton Name="EnableRadioButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="1" IsChecked="{Binding Path=CodabarEnabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=true, Mode=TwoWay}">On</RadioButton>
+          <RadioButton Name="DisableRadionButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="2" IsChecked="{Binding Path=CodabarEnabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=false, Mode=TwoWay}">Off</RadioButton>
+        </Grid>
+      </Border>
+      <Border Style="{StaticResource DefaultBorderStyle}">
+        <Grid Name="Length1Grid">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <Label Name="Length1Label" Style="{StaticResource SettingsLabel}" Grid.Column="0">Length 1</Label>
+          <userControls:CustomSettingsSlider x:Name="Length1SettingsSlider" MinimumValue="0" MaximumValue="99" Grid.Column="1" HorizontalSliderValue="{Binding Path=Length1, Mode=TwoWay}" />
+        </Grid>
+      </Border>
+      <Border Style="{StaticResource DefaultBorderStyle}">
+        <Grid Name="Length2Grid">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <Label Name="Length2Label" Style="{StaticResource SettingsLabel}" Grid.Column="0">Length 2</Label>
+          <userControls:CustomSettingsSlider x:Name="Length2SettingsSlider" MinimumValue="0" MaximumValue="99" Grid.Column="1" HorizontalSliderValue="{Binding Path=Length2, Mode=TwoWay}" />
+        </Grid>
+      </Border>
+      <Border Style="{StaticResource DefaultBorderStyle}">
+        <Grid Name="ClsiEnabledGrid">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <Label Name="ClsiEnabledLabel" Style="{StaticResource SettingsLabel}" Grid.Column="0">CLSI Enabled</Label>
+          <RadioButton Name="ClsiEnableRadioButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="1" IsChecked="{Binding ClsiEnabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=true, Mode=TwoWay}">On</RadioButton>
+          <RadioButton Name="ClsiDisableRadionButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="2" IsChecked="{Binding ClsiEnabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=false, Mode=TwoWay}">Off</RadioButton>
+        </Grid>
+      </Border>
+      <Border Style="{StaticResource DefaultBorderStyle}">
+        <Grid Name="NotisEnabledGrid">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+          </Grid.ColumnDefinitions>
+          <Label Name="NotisEnabledLabel" Style="{StaticResource SettingsLabel}" Grid.Column="0">NOTIS Enabled</Label>
+          <RadioButton Name="NotisEnableRadioButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="1" IsChecked="{Binding NotisEnabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=true, Mode=TwoWay}">On</RadioButton>
+          <RadioButton Name="NotisDisableRadionButton" Style="{StaticResource SettingsRadioButton}" Grid.Column="2" IsChecked="{Binding NotisEnabled, Converter={StaticResource boolInverterConverter}, ConverterParameter=false, Mode=TwoWay}">Off</RadioButton>
+        </Grid>
+      </Border>
+    </StackPanel>
+    <Button Name="BackButton" VerticalAlignment="Bottom" Style="{StaticResource LargeButton}" Grid.Row="1" Click="BackButton_Click">Back</Button>
+  </Grid>
+</barcodes:BaseBarcodeView>

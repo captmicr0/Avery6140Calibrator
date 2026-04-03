@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="AD.API.SampleApplication.Controls.UserControls.NumericUpDown" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:usercontrols="clr-namespace:AD.API.SampleApplication.Controls.UserControls;assembly=AD.API.SampleApplication">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition />
+      <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+    <Button Name="DecreaseButton" Grid.Column="0" FontSize="25px" FontWeight="Bold" Width="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="40" Style="{StaticResource ImageButton}" Padding="0, 0, 0, 10" IsEnabled="{Binding Path=MinReached, Mode=OneWay}" Click="DecreaseButton_OnClick">-</Button>
+    <Label Name="IndicatorLabel" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18px" Content="{Binding Path=IndicatorValue}" />
+    <Button Name="IncreaseButton" Grid.Column="2" FontSize="25px" FontWeight="Bold" Width="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="40" Style="{StaticResource ImageButton}" Padding="0, 0, 0, 10" IsEnabled="{Binding Path=MaxReached, Mode=OneWay}" Click="IncreaseButton_OnClick">+</Button>
+  </Grid>
+</UserControl>
