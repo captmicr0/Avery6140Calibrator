@@ -17,13 +17,16 @@ namespace AD.API.SampleApplication.ViewModels.Connection;
 
 internal class ConnectionViewModel : BaseViewModel
 {
-	private Command discoveryCommand;
+
+    private Command discoveryCommand;
 
     private Command resetAndBlackMarkCalCommand;
 
     private Command blackMarkCalibrationCommand;
 
 	private Command resetCommand;
+
+    private Command blackMarkCalAndDisconnectCommand;
 
     private ObservableCollection<DeviceConnectionItem> availableDevicesConnectionItems;
 
@@ -49,6 +52,8 @@ internal class ConnectionViewModel : BaseViewModel
 
 	public Command ResetCommand => resetCommand;
 
+    public Command BlackMarkCalAndDisconnectCommand => blackMarkCalAndDisconnectCommand;
+
     public bool DeviceNotConnected => !base.DeviceConnected;
 
 	public ObservableCollection<DeviceConnectionItem> AvailableDevicesConnectionItems => availableDevicesConnectionItems ?? (availableDevicesConnectionItems = new ObservableCollection<DeviceConnectionItem>());
@@ -63,9 +68,30 @@ internal class ConnectionViewModel : BaseViewModel
         resetAndBlackMarkCalCommand = new Command(ResetAndBlackMarkCal);
         blackMarkCalibrationCommand = new Command(CalibrateBlackMarkSensor);
         resetCommand = new Command(ResetDevicesMethod);
+        blackMarkCalAndDisconnectCommand = new Command(BlackMarkCalAndDisconnect);
         AddConnectedDevicesToElementCollection();
 		DiscoverDevicesMethod();
-	}
+
+        string configPath = AppDomain.CurrentDomain.BaseDirectory + "configuration\\";
+        Console.WriteLine("Configuration File Path: " + configPath);
+        if (ApplicationContext.ConfigData == null)
+        {
+            ApplicationContext.ConfigData = (object)configHandler.parseConfigFile(configPath);
+            if (ApplicationContext.ConfigData == null)
+            {
+                Messenger.ShowMessage("There was an issue while loading the configuration file. Please validate configuration file syntax and values.", "Configuration File Load Error.", MessageBoxButton.OK, MessageBoxImage.Hand);
+            }
+            ApplicationContext.trackingSymbologies = configHandler.getTrackingSymbologies(ApplicationContext.ConfigData);
+            ApplicationContext.routeZoneLocation = configHandler.getRouteZoneLocation(ApplicationContext.ConfigData);
+            ApplicationContext.sortZoneLocation = configHandler.getSortZoneLocation(ApplicationContext.ConfigData);
+            ApplicationContext.trackingIDLocation = configHandler.getTrackingIDLocation(ApplicationContext.ConfigData);
+            ApplicationContext.errorCodeLocation = configHandler.getErrorCodeLocation(ApplicationContext.ConfigData);
+            ApplicationContext.maxDeviceCount = configHandler.getMaxDeviceCount(ApplicationContext.ConfigData);
+            ApplicationContext.resetButtonEnable = configHandler.getResetButtonEnable(ApplicationContext.ConfigData);
+            ApplicationContext.serverLoggingEnable = configHandler.getServerLoggingEnable(ApplicationContext.ConfigData);
+            ApplicationContext.infoLoggingEnable = configHandler.getInfoLoggingEnable(ApplicationContext.ConfigData);
+        }
+    }
 
 	public override void ValidateSelf()
 	{
@@ -95,7 +121,7 @@ internal class ConnectionViewModel : BaseViewModel
 			try
 			{
 				AddConnectedDevicesToElementCollection();
-				availableDevices = ApplicationContext.DeviceManager.GetAvailableDevices(ConnectionType.Bluetooth, new TimeSpan(5000L));
+				availableDevices = ApplicationContext.DeviceManager.GetAvailableDevices(ConnectionType.Bluetooth, new TimeSpan(1000L));
 			}
 			catch (ApiException ex)
 			{
@@ -297,7 +323,7 @@ internal class ConnectionViewModel : BaseViewModel
             try
             {
                 ValidateSelf();
-                SetConnectionActionItemsState();
+                //SetConnectionActionItemsState();
                 base.IsActionAvailable = true;
                 OnPropertyChanged(string.Empty);
             }

@@ -1,38 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\",
+  "WorkspaceRootPath": "K:\\GitRepo\\Avery6140Calibrator\\Modified Calibration Tool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\ilspy sampleapp\\ad.api.sampleapplication.views.connection.connectionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|solutionrelative:ad.api.sampleapplication.views.connection.connectionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\ilspy sampleapp\\ad.api.sampleapplication.viewmodels.connection\\connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\modified calibration tool\\ad.api.sampleapplication.viewmodels.connection\\connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|solutionrelative:ad.api.sampleapplication.viewmodels.connection\\connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\ilspy sampleapp\\ad.api.sampleapplication.views.mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|solutionrelative:ad.api.sampleapplication.views.mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\ilspy sampleapp\\ad.api.sampleapplication.mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|solutionrelative:ad.api.sampleapplication.mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\ilspy sampleapp\\ad.api.sampleapplication.views.scenarios.scenariosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|solutionrelative:ad.api.sampleapplication.views.scenarios.scenariosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\ilspy sampleapp\\ad.api.sampleapplication.views.connection\\connectionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|solutionrelative:ad.api.sampleapplication.views.connection\\connectionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\ilspy sampleapp\\ad.api.sampleapplication.viewmodels.scenarios\\scenariosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\modified calibration tool\\ad.api.sampleapplication.viewmodels.scenarios\\scenariosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|solutionrelative:ad.api.sampleapplication.viewmodels.scenarios\\scenariosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\ilspy sampleapp\\ad.api.sampleapplication.views.scenarios\\scenariosview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|solutionrelative:ad.api.sampleapplication.views.scenarios\\scenariosview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|k:\\gitrepo\\avery6140calibrator\\modified calibration tool\\ad.api.sampleapplication.views.connection.connectionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FAB51415-F39D-4D6E-AD4C-ADC103DCBA82}|RyansUnlockedAD6140Tool.csproj|solutionrelative:ad.api.sampleapplication.views.connection.connectionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,106 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AD.API.SampleApplication.MainWindow.xaml",
-              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.MainWindow.xaml",
-              "RelativeDocumentMoniker": "AD.API.SampleApplication.MainWindow.xaml",
-              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.MainWindow.xaml",
-              "RelativeToolTip": "AD.API.SampleApplication.MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-02T17:57:24.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AD.API.SampleApplication.Views.MainView.xaml",
-              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.MainView.xaml",
-              "RelativeDocumentMoniker": "AD.API.SampleApplication.Views.MainView.xaml",
-              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.MainView.xaml",
-              "RelativeToolTip": "AD.API.SampleApplication.Views.MainView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-02T17:57:12.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConnectionView.cs",
-              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.Connection\\ConnectionView.cs",
-              "RelativeDocumentMoniker": "AD.API.SampleApplication.Views.Connection\\ConnectionView.cs",
-              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.Connection\\ConnectionView.cs",
-              "RelativeToolTip": "AD.API.SampleApplication.Views.Connection\\ConnectionView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T06:04:00.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ScenariosViewModel.cs",
+              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\Modified Calibration Tool\\AD.API.SampleApplication.ViewModels.Scenarios\\ScenariosViewModel.cs",
+              "RelativeDocumentMoniker": "AD.API.SampleApplication.ViewModels.Scenarios\\ScenariosViewModel.cs",
+              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\Modified Calibration Tool\\AD.API.SampleApplication.ViewModels.Scenarios\\ScenariosViewModel.cs",
+              "RelativeToolTip": "AD.API.SampleApplication.ViewModels.Scenarios\\ScenariosViewModel.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T18:57:35.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ConnectionViewModel.cs",
-              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.ViewModels.Connection\\ConnectionViewModel.cs",
+              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\Modified Calibration Tool\\AD.API.SampleApplication.ViewModels.Connection\\ConnectionViewModel.cs",
               "RelativeDocumentMoniker": "AD.API.SampleApplication.ViewModels.Connection\\ConnectionViewModel.cs",
-              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.ViewModels.Connection\\ConnectionViewModel.cs",
+              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\Modified Calibration Tool\\AD.API.SampleApplication.ViewModels.Connection\\ConnectionViewModel.cs",
               "RelativeToolTip": "AD.API.SampleApplication.ViewModels.Connection\\ConnectionViewModel.cs",
-              "ViewState": "AgIAAPgAAAAAAAAAAAAwwC0BAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA1wFcAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T06:00:44.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AD.API.SampleApplication.Views.Connection.ConnectionView.xaml",
-              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.Connection.ConnectionView.xaml",
+              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\Modified Calibration Tool\\AD.API.SampleApplication.Views.Connection.ConnectionView.xaml",
               "RelativeDocumentMoniker": "AD.API.SampleApplication.Views.Connection.ConnectionView.xaml",
-              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.Connection.ConnectionView.xaml",
+              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\Modified Calibration Tool\\AD.API.SampleApplication.Views.Connection.ConnectionView.xaml",
               "RelativeToolTip": "AD.API.SampleApplication.Views.Connection.ConnectionView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-29T06:00:19.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ScenariosView.cs",
-              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.Scenarios\\ScenariosView.cs",
-              "RelativeDocumentMoniker": "AD.API.SampleApplication.Views.Scenarios\\ScenariosView.cs",
-              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.Scenarios\\ScenariosView.cs",
-              "RelativeToolTip": "AD.API.SampleApplication.Views.Scenarios\\ScenariosView.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T06:01:51.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ScenariosViewModel.cs",
-              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.ViewModels.Scenarios\\ScenariosViewModel.cs",
-              "RelativeDocumentMoniker": "AD.API.SampleApplication.ViewModels.Scenarios\\ScenariosViewModel.cs",
-              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.ViewModels.Scenarios\\ScenariosViewModel.cs",
-              "RelativeToolTip": "AD.API.SampleApplication.ViewModels.Scenarios\\ScenariosViewModel.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwE4AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T05:26:01.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AD.API.SampleApplication.Views.Scenarios.ScenariosView.xaml",
-              "DocumentMoniker": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.Scenarios.ScenariosView.xaml",
-              "RelativeDocumentMoniker": "AD.API.SampleApplication.Views.Scenarios.ScenariosView.xaml",
-              "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\ILSpy SampleApp\\AD.API.SampleApplication.Views.Scenarios.ScenariosView.xaml",
-              "RelativeToolTip": "AD.API.SampleApplication.Views.Scenarios.ScenariosView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-29T05:31:04.268Z",
               "EditorCaption": ""
             }
           ]

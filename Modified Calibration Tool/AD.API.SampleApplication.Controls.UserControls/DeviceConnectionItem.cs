@@ -51,7 +51,7 @@ public partial class DeviceConnectionItem : UserControl, IComponentConnector
 	public DeviceConnectionItem()
 	{
 		InitializeComponent();
-	}
+    }
 
 	public DeviceConnectionItem(DeviceConnectionInfo connectionInfo)
 	{
