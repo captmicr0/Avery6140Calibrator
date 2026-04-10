@@ -34,8 +34,7 @@
               "RelativeToolTip": "AD.API.SampleApplication.ViewModels.Scenarios\\ScenariosViewModel.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAiwAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T18:57:35.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T18:57:35.56Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "AD.API.SampleApplication.ViewModels.Connection\\ConnectionViewModel.cs",
               "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\Modified Calibration Tool\\AD.API.SampleApplication.ViewModels.Connection\\ConnectionViewModel.cs",
               "RelativeToolTip": "AD.API.SampleApplication.ViewModels.Connection\\ConnectionViewModel.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAA1wFcAAAB1AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAQwEQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T06:00:44.335Z",
               "EditorCaption": ""
@@ -59,8 +58,7 @@
               "ToolTip": "K:\\GitRepo\\Avery6140Calibrator\\Modified Calibration Tool\\AD.API.SampleApplication.Views.Connection.ConnectionView.xaml",
               "RelativeToolTip": "AD.API.SampleApplication.Views.Connection.ConnectionView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-29T06:00:19.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T06:00:19.163Z"
             }
           ]
         }
