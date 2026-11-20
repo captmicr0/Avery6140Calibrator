@@ -1,0 +1,86 @@
+name: Build Avery 6140 Calibrator
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-2022
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Set up NuGet
+        uses: NuGet/setup-nuget@v2
+
+      - name: Locate calibration project
+        id: project
+        shell: pwsh
+        run: |
+          $folder = Join-Path $env:GITHUB_WORKSPACE 'Modified Calibration Tool'
+          if (-not (Test-Path -LiteralPath $folder)) {
+            throw "Source folder not found: $folder"
+          }
+
+          $projects = @(Get-ChildItem -LiteralPath $folder -Recurse -Filter '*.csproj' -File |
+            Where-Object { $_.FullName -notmatch '[\\/](obj|bin)[\\/]' })
+          if ($projects.Count -eq 0) {
+            throw "No .csproj found under $folder. A project file is required to compile the source."
+          }
+
+          $target = $projects | Where-Object { $_.BaseName -eq 'AD.API.SampleApplication' } | Select-Object -First 1
+          if (-not $target) {
+            $target = $projects | Where-Object { $_.BaseName -match 'SampleApplication|Calibrat' } | Select-Object -First 1
+          }
+          if (-not $target -and $projects.Count -eq 1) {
+            $target = $projects[0]
+          }
+          if (-not $target) {
+            $names = ($projects | ForEach-Object FullName) -join "`n"
+            throw "Multiple projects found. Set the target explicitly. Candidates:`n$names"
+          }
+
+          Write-Host "Building $($target.FullName)"
+          "path=$($target.FullName)" >> $env:GITHUB_OUTPUT
+
+      - name: Restore NuGet packages
+        shell: pwsh
+        run: |
+          $project = '${{ steps.project.outputs.path }}'
+          $projectDir = Split-Path -Parent $project
+          $solutions = @(Get-ChildItem -Path (Join-Path $env:GITHUB_WORKSPACE 'Modified Calibration Tool') -Recurse -Filter '*.sln' -File)
+          if ($solutions.Count -eq 1) {
+            & nuget restore $solutions[0].FullName -NonInteractive
+          } else {
+            & nuget restore $project -NonInteractive
+          }
+          if ($LASTEXITCODE -ne 0) { throw 'NuGet restore failed.' }
+
+      - name: Compile Release build
+        shell: pwsh
+        run: |
+          $project = '${{ steps.project.outputs.path }}'
+          $output = Join-Path $env:GITHUB_WORKSPACE 'calibrator-build'
+          New-Item -ItemType Directory -Force -Path $output | Out-Null
+          & msbuild $project /t:Build /m /verbosity:minimal /p:Configuration=Release "/p:OutDir=$output/"
+          if ($LASTEXITCODE -ne 0) { throw 'MSBuild failed.' }
+
+          $executables = @(Get-ChildItem -LiteralPath $output -Filter '*.exe' -File -Recurse)
+          if ($executables.Count -eq 0) {
+            throw "Build completed but no EXE was found in $output"
+          }
+          Write-Host "Built executable(s):"
+          $executables | ForEach-Object { Write-Host $_.FullName }
+
+      - name: Upload compiled application
+        uses: actions/upload-artifact@v4
+        with:
+          name: Avery6140Calibrator-${{ github.run_number }}
+          path: calibrator-build/
+          if-no-files-found: error
+          retention-days: 30
