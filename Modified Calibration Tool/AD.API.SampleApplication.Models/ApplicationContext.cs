@@ -81,7 +81,7 @@ internal static class ApplicationContext
 		}
 	}
 
-	static ApplicationContext()
+	/*static ApplicationContext()
 	{
 		ScannedData = string.Empty;
 		ScanData = string.Empty;
@@ -91,7 +91,37 @@ internal static class ApplicationContext
 		addressNamePair = new Dictionary<string, string>();
 		DeviceManager = new DeviceManager();
 		stopwatch = new Stopwatch();
-	}
+	}*/
+	static ApplicationContext()
+{
+    try
+    {
+        ScannedData = string.Empty;
+        ScanData = string.Empty;
+        AutoTrigger = false;
+
+        metricsLogger = LogManager.GetLogger("MetricsLogger");
+
+        ResourceManager = new ResourceManager();
+
+        addressNamePair = new Dictionary<string, string>();
+
+        DeviceManager = new DeviceManager();
+
+        stopwatch = new Stopwatch();
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show(
+            ex.ToString(),
+            "ApplicationContext Initialization Error",
+            MessageBoxButton.OK,
+            MessageBoxImage.Error
+        );
+
+        throw;
+    }
+}
 
 	internal static void Disconnect(IDevice deviceToDisconnect)
 	{
